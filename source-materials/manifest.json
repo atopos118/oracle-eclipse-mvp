@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-07-20T06:34:20.436684+00:00",
+  "files": [
+    {
+      "sourceId": "52172",
+      "title": "故宫博物院藏甲骨卜辞中记载的祖庚时期日食",
+      "status": "extracted",
+      "localFile": "52172_韩宇娇_祖庚时期日食.pdf",
+      "sha256": "da0d2ef4901e30520c30a7b8a53f148427f436c731d4fe4c733dfe307b1017a3",
+      "pdfPages": 12,
+      "extractedCharacters": 8537,
+      "extractedFile": "52172.txt"
+    },
+    {
+      "sourceId": "50607",
+      "title": "基于JPL行星历表的殷卜辞乙巳日食观测的研究",
+      "status": "missing",
+      "expectedLocalFile": "50607_马利华等_JPL乙巳日食.pdf"
+    },
+    {
+      "sourceId": "41722",
+      "title": "说“癸酉日食”",
+      "status": "missing",
+      "expectedLocalFile": "41722_杨升南_说癸酉日食.pdf"
+    },
+    {
+      "sourceId": "28593",
+      "title": "癸酉日食说",
+      "status": "missing",
+      "expectedLocalFile": "28593_李学勤_癸酉日食说.pdf"
+    },
+    {
+      "sourceId": "25002",
+      "title": "殷卜辞乙巳日食的初步研究",
+      "status": "missing",
+      "expectedLocalFile": "25002_冯时_殷卜辞乙巳日食.pdf"
+    },
+    {
+      "sourceId": "22019",
+      "title": "商朝的日食和月食记录",
+      "status": "missing",
+      "expectedLocalFile": "22019_郭胜强_商朝日食和月食记录.pdf"
+    },
+    {
+      "sourceId": "41348",
+      "title": "中国早期的日食记录和公元前十四至公元前十一世纪日食表",
+      "status": "missing",
+      "expectedLocalFile": "41348_张培瑜等_中国早期日食记录.pdf"
+    }
+  ]
+}

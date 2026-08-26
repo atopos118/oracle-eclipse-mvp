@@ -1,0 +1,9 @@
+participant_id,audience,consent,scenario,started_at,completed_at,completed_tasks,total_tasks,help_count,error_count,sus_score,key_issue,severity,status
+P01,公众用户,,public,,,,5,,,,,待招募
+P02,公众用户,,public,,,,5,,,,,待招募
+P03,中学生或教师,,public,,,,5,,,,,待招募
+P04,中学生或教师,,public,,,,5,,,,,待招募
+P05,历史或古文字学生,,research,,,,10,,,,,待招募
+P06,古文字或历史研究者,,expert,,,,13,,,,,待招募
+P07,天文学教师或研究者,,expert,,,,13,,,,,待招募
+P08,指导教师或内容编辑,,research,,,,10,,,,,待招募

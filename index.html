@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="从日食的科学原理出发，读懂甲骨卜辞里的日食研究线索。">
+  <title>甲骨里的日光缺口</title>
+  <link rel="icon" href="assets/brand-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=20260825-1">
+</head>
+
+<body id="top">
+  <a class="skip-link" href="#main">跳到正文</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="回到页面顶部">
+      <img class="brand-mark" src="assets/brand-mark.svg" alt="" width="34" height="34">
+      <span>日光缺口</span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="主要导航">
+      <a href="#science">看懂日食</a>
+      <a href="#oracle">读甲骨记录</a>
+      <a href="#works">看公开成果</a>
+      <a href="#ask">问一问</a>
+    </nav>
+    <div class="site-tools">
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" title="打开导航"><span aria-hidden="true">☰</span><span class="sr-only">打开导航</span></button>
+      <span class="service-state" id="service-state" aria-live="polite">正在连接</span>
+      <a class="workbench-entry" href="/research/">研究工作台 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title" data-public-renderer="hero">
+      <div class="hero-media" id="hero-media" aria-hidden="true">
+        <div class="hero-slide is-active"><picture><source srcset="assets/hero-eclipse.webp" type="image/webp"><img src="assets/hero-eclipse.png" alt="" width="1920" height="1080" fetchpriority="high" decoding="async"></picture></div>
+      </div>
+      <div class="hero-copy reveal">
+        <p class="hero-overline" id="hero-overline">太阳被遮住的那一刻，古人看见了什么？</p>
+        <h1 id="hero-title">甲骨里的日光缺口</h1>
+        <p class="hero-lede" id="hero-lede">从月球投下的一片影子，走进三千多年前的贞问与记录。</p>
+        <div class="hero-actions">
+          <a class="button button-sun" id="hero-primary-action" href="#science">先看懂日食 <span aria-hidden="true">↓</span></a>
+          <a class="text-link" id="hero-secondary-action" href="#oracle">直接读记录</a>
+        </div>
+      </div>
+      <div class="hero-controls" id="hero-controls" aria-label="Banner 轮播控制" hidden></div>
+      <p class="hero-caption" id="hero-caption">主视觉为传播插图，不是甲骨原片或拓片</p>
+    </section>
+
+    <section class="science-section" id="science" aria-labelledby="science-title" data-public-renderer="science">
+      <div class="section-inner">
+        <div class="chapter-heading reveal">
+          <span class="chapter-number">天象</span>
+          <div>
+            <p class="kicker" id="science-kicker">先看懂今天的天空</p>
+            <h2 id="science-title">日食，是月亮投下的一片影子</h2>
+            <p id="science-summary">当月球运行到太阳和地球之间，它的影子可能落到地球上。站在影子经过的地方，人们会看到太阳被遮住一部分或全部，这就是日食。</p>
+          </div>
+        </div>
+
+        <div class="eclipse-lab reveal" id="eclipse-lab">
+          <div class="eclipse-stage" id="eclipse-stage">
+            <canvas id="eclipse-canvas" aria-label="可交互的太阳、月球与地球三维日食模拟"></canvas>
+            <div class="eclipse-stage-top">
+              <span class="eclipse-live"><i aria-hidden="true"></i>实时几何模拟</span>
+              <div class="scene-view-switch" role="group" aria-label="观察视角">
+                <button class="is-active" type="button" data-scene-view="orbit" aria-pressed="true">轨道视角</button>
+                <button type="button" data-scene-view="observer" aria-pressed="false">地面视角</button>
+              </div>
+            </div>
+            <div class="celestial-label label-sun"><strong>太阳</strong><span>光源</span></div>
+            <div class="celestial-label label-moon"><strong>月球</strong><span>遮挡体</span></div>
+            <div class="celestial-label label-earth"><strong>地球</strong><span>观测位置</span></div>
+            <div class="eclipse-stage-legend" aria-hidden="true">
+              <span><i class="legend-umbra"></i>本影</span>
+              <span><i class="legend-penumbra"></i>半影</span>
+              <span>拖动场景改变观察角度</span>
+            </div>
+            <p class="eclipse-webgl-notice" id="eclipse-webgl-notice" hidden>当前设备无法显示三维场景，仍可使用下方控件阅读日食原理。</p>
+          </div>
+
+          <div class="eclipse-console">
+            <section class="orbit-copy" aria-labelledby="orbit-question">
+              <p class="console-label">轨道交点</p>
+              <p class="orbit-question" id="orbit-question">为什么不是每个月都有日食？</p>
+              <p id="orbit-explanation">月球轨道与地球绕太阳运行的平面约有 5° 倾角。只有朔月靠近轨道交点时，月影才可能扫过地球。</p>
+              <div class="orbit-readout" aria-live="polite">
+                <span><b id="alignment-status">影子正落向地球</b><small id="alignment-detail">本影与地表相交</small></span>
+                <strong id="alignment-value">0.0°</strong>
+              </div>
+              <label class="range-control" for="orbit-offset">
+                <span>月球偏离黄道面的角度</span>
+                <input id="orbit-offset" type="range" min="-5" max="5" step="0.1" value="0">
+                <span class="range-scale" aria-hidden="true"><i>-5°</i><i>轨道交点</i><i>+5°</i></span>
+              </label>
+            </section>
+
+            <section class="type-explorer" aria-labelledby="type-heading">
+              <div class="type-intro">
+                <p class="kicker" id="type-kicker">同一场天象，不同地点会看见不同模样</p>
+                <h3 id="type-heading">太阳会被遮住多少？</h3>
+              </div>
+              <div class="type-tabs" role="tablist" aria-label="日食类型">
+                <button class="type-tab is-active" type="button" role="tab" aria-selected="true" data-type="total">日全食</button>
+                <button class="type-tab" type="button" role="tab" aria-selected="false" data-type="annular">日环食</button>
+                <button class="type-tab" type="button" role="tab" aria-selected="false" data-type="partial">日偏食</button>
+              </div>
+              <div class="type-display" id="type-display">
+                <div class="eclipse-view total" id="eclipse-view" aria-hidden="true">
+                  <span class="sun-disc"></span>
+                  <span class="moon-disc"></span>
+                  <small>观测者所见</small>
+                </div>
+                <div class="type-copy" aria-live="polite">
+                  <span id="type-short">太阳被完全遮住</span>
+                  <h4 id="type-name">日全食</h4>
+                  <p id="type-explanation">观测者位于月球本影扫过的狭窄区域内。短暂的全食阶段里，明亮的日面被遮住，日冕才更容易被看见。</p>
+                  <p class="type-fact" id="type-fact">全食带很窄，同一时刻并不是整颗地球都能看到日全食。</p>
+                </div>
+              </div>
+            </section>
+          </div>
+          <p class="safety-note"><strong>观测提醒</strong> <span id="safety-note">除全食阶段外，不能用肉眼或普通墨镜直接观看太阳，应使用合格的太阳观测镜。</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="history-section" id="history" aria-labelledby="history-title" data-public-renderer="history">
+      <div class="history-image reveal">
+        <img id="history-image" src="assets/evidence-oracle.webp" alt="甲骨材料主题传播插图，非甲骨原片或拓片" width="960" height="1200" loading="lazy" decoding="async">
+        <span id="history-image-caption">传播情境图 / 非原片</span>
+      </div>
+      <div class="history-copy reveal">
+        <span class="chapter-number light">殷商</span>
+        <p class="kicker" id="history-kicker">再回到三千多年前</p>
+        <h2 id="history-title">天空出现缺口，问题被留在甲骨上</h2>
+        <p class="history-lede" id="history-summary">这种天象早在使用甲骨文的时代就已进入先人的观察与贞问。今天能看到的，不只是一条“古人见过日食”的结论，更是他们怎样面对一次异常天象。</p>
+        <blockquote>
+          <p id="history-quote">卜辞提出的是问题，不一定已经给出“凶”或“吉”的答案。</p>
+        </blockquote>
+        <div class="belief-points" id="belief-points">
+          <p>商代卜辞把天象放进占卜、祭祀与政治生活的语境中。</p>
+          <p>不能把所有日食记录简单概括为同一种固定预兆。</p>
+          <p>具体一辞怎样解释，要看字形、上下辞、分期和同类辞例。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="records-section" id="oracle" aria-labelledby="records-title" data-public-renderer="records">
+      <div class="section-inner">
+        <div class="chapter-heading reveal">
+          <span class="chapter-number">卜辞</span>
+          <div>
+            <p class="kicker" id="records-kicker">逐条打开，不替争议下结论</p>
+            <h2 id="records-title">甲骨日食记录与研究线索</h2>
+            <p id="records-summary">点击句子即可展开释义、年代、学者观点和争议；不同条目可以同时保持展开。这里的逐条记录来自已经审核发布的记录整理；尚未形成独立条目时，会从已经发布的记录表同步展示。</p>
+          </div>
+        </div>
+
+        <div class="record-tools reveal">
+          <label class="search-box" for="record-search">
+            <span aria-hidden="true">⌕</span>
+            <input id="record-search" type="search" placeholder="搜索乙丑、21298、33696或学者姓名" autocomplete="off">
+          </label>
+          <div class="record-count" id="record-count" aria-live="polite">读取中</div>
+        </div>
+
+        <div class="scope-banner reveal" id="scope-banner">
+          <strong id="records-scope-title">这里展示的是研究工作台已审核并发布的甲骨日食记录与研究线索。</strong>
+          <span id="records-scope-note">释文、著录、年代或日食对应仍有不确定时，条目会明确标为“研究线索”或“待核”，不会作为定论。</span>
+        </div>
+
+        <div class="record-list" id="record-list">
+          <p class="loading-row">正在读取甲骨记录……</p>
+        </div>
+        <p class="empty-state" id="record-empty" hidden>没有找到匹配的条目。</p>
+      </div>
+    </section>
+
+    <section class="works-section" id="works" aria-labelledby="works-title" data-public-renderer="works">
+      <div class="section-inner">
+        <div class="chapter-heading reveal">
+          <span class="chapter-number">成果</span>
+          <div>
+            <p class="kicker" id="works-kicker">从研究工作台审核发布</p>
+            <h2 id="works-title">已经可以公开阅读的研究成果</h2>
+            <p id="works-summary">这里呈现的是研究工作台审核后正式发布的作品。未确认资料、未批准内容和原始论文不会在公众站显示。</p>
+          </div>
+        </div>
+
+        <div class="works-release reveal" aria-label="本次发布概况">
+          <div>
+            <span>公开作品</span>
+            <strong id="work-count">0</strong>
+          </div>
+          <div>
+            <span>已确认来源</span>
+            <strong id="work-source-count">0 / 7</strong>
+          </div>
+        </div>
+
+        <div class="work-tabs reveal" id="work-tabs" role="tablist" aria-label="公开成果类型"></div>
+        <div class="work-stage reveal" id="work-stage" aria-live="polite">
+          <p class="loading-row">正在读取审核发布成果……</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ask-section" id="ask" aria-labelledby="ask-title" data-public-renderer="ask">
+      <div class="section-inner ask-layout">
+        <div class="ask-copy reveal">
+          <span class="chapter-number light">问答</span>
+          <p class="kicker" id="ask-kicker">问问古人的天空</p>
+          <h2 id="ask-title">从一句卜辞问起，也可以先问一个大问题</h2>
+          <p id="ask-summary">回答只调用页面中的日食常识、甲骨记录和文献来源。没有证据的部分会直接说“尚不清楚”。</p>
+          <div class="prompt-list" aria-label="示例问题">
+            <button type="button" data-prompt="商代人认为日食是凶还是吉？">日食是凶还是吉？</button>
+            <button type="button" data-prompt="请列出目前收录的甲骨日食研究线索和年代。">有哪些记录？</button>
+            <button type="button" data-prompt="《宫藏谢》17的乙丑日食记录有哪些争议？">乙丑记录争议</button>
+          </div>
+        </div>
+
+        <div class="chat-window reveal">
+          <div class="chat-topbar">
+            <div>
+              <span class="chat-pulse" aria-hidden="true"></span>
+              <strong>日光问答</strong>
+            </div>
+            <span id="chat-mode">本地知识库</span>
+          </div>
+          <div class="chat-log" id="chat-log" aria-live="polite" aria-label="问答记录">
+            <article class="message assistant-message">
+              <span>日光问答</span>
+              <p>你可以输入一段甲骨卜辞，或直接问“当时的人怎样理解日食”。我会把依据一起列出来。</p>
+            </article>
+          </div>
+          <form class="chat-form" id="chat-form">
+            <label for="chat-input">你的问题</label>
+            <div class="chat-compose">
+              <textarea id="chat-input" rows="2" maxlength="800" placeholder="例如：《合集》21298记录了什么？" required></textarea>
+              <button class="send-button" id="send-button" type="submit">发送</button>
+            </div>
+            <span class="chat-hint">答案会标注资料来源；AI 输出仍需人工复核。</span>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="public-references" aria-labelledby="public-references-title">
+    <div class="public-references-inner">
+      <details>
+        <summary id="public-references-title">参考文献（17）</summary>
+        <ol>
+          <li>韩宇娇. 故宫博物院藏甲骨卜辞中记载的祖庚时期日食[J]. 紫禁城, 2023(10): 82-93.</li>
+          <li>马利华, 韩延本, 尹志强, 等. 基于JPL行星历表的殷卜辞乙巳日食观测的研究[J]. 天文研究与技术, 2021, 18(4): 437-441.</li>
+          <li>杨升南. 说“癸酉日食”[J]. 殷都学刊, 2019, 40(2): 1-4.</li>
+          <li>李学勤. 癸酉日食说[J]. 中国文化研究, 1998(3): 11-16.</li>
+          <li>冯时. 殷卜辞乙巳日食的初步研究[J]. 自然科学史研究, 1992, 11(3): 240-252.</li>
+          <li>郭胜强. 商朝的日食和月食记录[J]. 史学月刊, 1987(1): 18-19.</li>
+          <li>张培瑜, 徐振韬, 卢央. 中国早期的日食记录和公元前十四至公元前十一世纪日食表[J]. 南京大学学报(自然科学版), 1982(1): 1-39.</li>
+          <li>郭沫若主编, 胡厚宣总编辑. 甲骨文合集[M]. 北京: 中华书局, 1978-1982.</li>
+          <li>中国社会科学院考古研究所. 小屯南地甲骨[M]. 北京: 中华书局, 1980-1983.</li>
+          <li>董作宾. 殷虚文字甲编[M]. 南京: 商务印书馆, 1948.</li>
+          <li>罗振玉. 殷虚书契后编[M]. 影印本, 1916.</li>
+          <li>故宫博物院编, 谢济编著. 故宫博物院藏殷墟甲骨文[M]. 北京: 书目文献出版社, 1993.</li>
+          <li>商承祚. 殷契佚存[M]. 南京: 金陵大学中国文化研究所, 1933.</li>
+          <li>胡厚宣. 战后京津新获甲骨集[M]. 上海: 群联出版社, 1954.</li>
+          <li>林泰辅. 龟甲兽骨文字[M]. 东京: 秀英舍, 1921.</li>
+          <li>郭若愚, 曾毅公, 李学勤. 甲骨续存[M]. 上海: 上海出版公司, 1955.</li>
+          <li>王襄. 簋室殷契徵文[M]. 天津: 天津古籍书店影印本, 1925.</li>
+        </ol>
+      </details>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div>
+      <strong>甲骨里的日光缺口</strong>
+      <span>从科学原理到甲骨记录</span>
+      <span id="public-snapshot">当前内容来自已发布版本</span>
+    </div>
+    <aside class="copyright-notice" aria-label="版权与局限性说明">
+      <strong>版权与局限性说明</strong>
+      <p>本项目为完成竞赛科研任务，后台本地保存部分学术论文文本，仅用于项目内部算法研究、文本挖掘、统计分析，系统前端不会对外展示、导出、下载论文原文。项目未获得全部文献著作权人的正式授权，因此本系统仅可用于本次学生竞赛演示，不得对外部署、公开上线，不得投入商业化使用。后续若要正式落地，需取得对应文献版权方许可。</p>
+    </aside>
+    <div class="footer-actions">
+      <a href="/research/">进入研究工作台 <span aria-hidden="true">↗</span></a>
+      <a id="back-to-top" href="#top">回到顶部 <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <script src="app.js?v=20260825-3" defer></script>
+  <script type="module" src="eclipse-three.js?v=20260724-12"></script>
+</body>
+
+</html>

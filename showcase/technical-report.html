@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《甲骨里的日光缺口》应用技术报告摘要。">
+  <title>应用技术报告 · 甲骨里的日光缺口</title>
+  <link rel="icon" href="../assets/brand-mark.svg" type="image/svg+xml">
+  <style>
+    :root{--ink:#071713;--bone:#f3eddf;--sun:#efb64a;--red:#b23d2e;--green:#276b5d;--line:#d8d0bf;--display:"STSong","Songti SC",serif;--body:"FangSong","STFangsong",serif}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:#fffdf6;font-family:var(--body);letter-spacing:0}a{color:inherit}.report-head{padding:24px clamp(24px,6vw,88px);display:flex;justify-content:space-between;align-items:center;color:var(--bone);background:var(--ink)}.report-head a{text-decoration:none}.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-size:20px}.report-hero{padding:110px clamp(24px,9vw,150px) 90px;color:var(--bone);background:var(--ink)}.report-hero p{color:var(--sun);font-family:sans-serif;font-weight:700}.report-hero h1{max-width:1000px;margin:22px 0;font-family:var(--display);font-size:clamp(50px,7vw,92px);font-weight:500;line-height:1.05}.report-hero span{display:block;max-width:800px;color:rgba(243,237,223,.68);font-size:22px;line-height:1.7}main{max-width:1080px;margin:0 auto;padding:90px 28px 120px}.report-section{display:grid;grid-template-columns:190px 1fr;gap:48px;padding:54px 0;border-top:1px solid var(--line)}.report-section h2{margin:0;font-family:var(--display);font-size:30px;font-weight:500}.report-section h3{margin:0 0 14px;color:var(--green);font-size:22px}.report-section p,.report-section li{font-size:18px;line-height:1.75}.report-section ul{margin:0;padding-left:22px}.stack{display:grid;gap:30px}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;margin-top:24px;background:var(--line)}.flow div{min-height:150px;padding:22px;background:#f5f0e5}.flow b{display:block;color:var(--red);font-size:14px}.flow span{display:block;margin-top:38px;font-size:17px}.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}.metrics strong{display:block;color:var(--red);font-family:Georgia,serif;font-size:44px;font-weight:400}.metrics span{font-size:14px}.boundary{padding:26px;border-left:4px solid var(--sun);background:#f5f0e5}.report-foot{padding:34px clamp(24px,6vw,88px);color:var(--bone);background:var(--ink);text-align:center}@media(max-width:800px){.report-section{grid-template-columns:1fr}.flow,.metrics{grid-template-columns:1fr 1fr}.flow div{min-height:110px}.flow span{margin-top:18px}}@media(max-width:520px){.flow,.metrics{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="report-head"><a class="brand" href="/"><img src="../assets/brand-mark.svg" alt="" width="34" height="34"><span>日光缺口</span></a><a href="./">返回参赛入口</a></header>
+  <section class="report-hero"><p>应用技术报告 / 公开摘要</p><h1>让多模态生成服从证据边界</h1><span>《甲骨里的日光缺口》以 7 篇甲骨日食核心资料为边界，搭建从资料识别、受控生成、人工修正到公众发布的科学传播应用。</span></section>
+  <main>
+    <section class="report-section"><h2>研究问题</h2><div><h3>专业材料怎样被准确、生动地传播？</h3><p>甲骨日食记录同时涉及古文字释读、断代、天文对应与历史语境。直接使用通用模型容易把争议压平为定论，也容易把低质量 OCR 当作可靠原文。应用需要在科学传播性、艺术表现力与证据可靠性之间建立可操作的平衡。</p></div></section>
+    <section class="report-section"><h2>解决思路</h2><div class="flow"><div><b>01</b><span>资料确认</span></div><div><b>02</b><span>页码检索</span></div><div><b>03</b><span>多模态生成</span></div><div><b>04</b><span>人工修正</span></div><div><b>05</b><span>版本发布</span></div></div></section>
+    <section class="report-section"><h2>系统构成</h2><div class="stack"><div><h3>公众科普站</h3><p>Three.js 日食互动、甲骨记录、公开作品、公众问答和研究依据，统一读取当前发布版本。</p></div><div><h3>研究工作台</h3><p>私有资料导入、百炼 VL OCR、PDF 原页联动、资料问答、20 类作品生成、在线编辑、审核和版本管理。</p></div><div><h3>可审计数据层</h3><p>证据库、发布知识、作品库和来源关系分层保存。来源更新会使依赖作品进入重新复核状态。</p></div></div></section>
+    <section class="report-section"><h2>AI 工作流</h2><div><ul><li>Qwen Plus：资料问答、结构化作品和面向不同受众的文本转译。</li><li>Qwen VL OCR：扫描论文逐页识别，并保留页码与原页关联。</li><li>Qwen TTS：将审核前的音频导览脚本合成为中文音频。</li><li>百炼文生图：为图卡和站点栏目生成明确标注的传播插图。</li><li>Three.js 与本地导出层：日食交互、可编辑 PPTX、PNG、WAV、SRT 和视频制作包。</li></ul><p class="boundary">项目没有自行训练基础模型。模型生成内容不会自动成为证据；它首先是草稿，经过编辑和批准后才可进入公开版本。</p></div></section>
+    <section class="report-section"><h2>实现效果</h2><div class="metrics"><div><strong>7</strong><span>篇核心来源</span></div><div><strong>81</strong><span>页识别与校核</span></div><div><strong>20</strong><span>类输出</span></div><div><strong>9</strong><span>件当前公开作品</span></div><div><strong>72</strong><span>项自动化测试</span></div></div></section>
+    <section class="report-section"><h2>安全与边界</h2><div><ul><li>原始 PDF、SQLite、未确认资料、草稿和密钥不通过公众网站公开。</li><li>研究工作台必须登录；公网部署通过 HTTPS 反向代理，不直接暴露后端端口。</li><li>公众问答只使用当前发布内容，无依据时拒绝作确定性回答。</li><li>生成式甲骨主题画面明确标注为传播插图，不称为原片或拓片。</li></ul></div></section>
+    <section class="report-section"><h2>应用价值</h2><div><p>该闭环可迁移到博物馆展陈、课堂跨学科教学、文化遗产数字解读、科研成果可视化和公共科学传播。首期只验证甲骨日食主题，不宣称替代古文字学或天文学专家判断。</p></div></section>
+  </main>
+  <footer class="report-foot">《甲骨里的日光缺口》· 赛道三方向 2 · 科学传播的多元艺术表达</footer>
+</body>
+</html>

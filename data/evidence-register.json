@@ -1,0 +1,44 @@
+{
+  "dataset": "甲骨日食公开证据登记",
+  "version": "0.1",
+  "updatedAt": "2026-07-20",
+  "notice": "本文件只公开核验结论与页码，不包含论文全文、逐页摘录、甲骨图片或本地文件路径。",
+  "progress": {
+    "extractedSources": 1,
+    "targetSources": 7,
+    "verifiedRecords": 3
+  },
+  "sources": [
+    {
+      "sourceId": "52172",
+      "citation": "韩宇娇：《故宫博物院藏甲骨卜辞中记载的祖庚时期日食》，《紫禁城》2023年第10期，第82-93页。",
+      "researchCopy": "已取得并完成逐页核验；原始PDF仅限本地研究，不通过网站公开。",
+      "checks": [
+        {
+          "recordId": "hj-11480",
+          "result": "论文图版题注释作“贞：日有食”。",
+          "pdfPages": [2],
+          "publicationPages": [83]
+        },
+        {
+          "recordId": "gongcangxie-17",
+          "result": "论文给出《宫藏谢》17与13的缀合关系、《合集》21298对应关系、乙丑日食释文及作者断代论证。",
+          "pdfPages": [3, 6],
+          "publicationPages": [84, 87]
+        },
+        {
+          "recordId": "hj-33696",
+          "result": "论文给出《合集》33696拓片题注、告祭解释、三个乙巳日食候选及作者取前1161年的论证。",
+          "pdfPages": [2, 5, 6],
+          "publicationPages": [83, 86, 87]
+        },
+        {
+          "recordId": "topic-shang-attitude",
+          "result": "论文讨论日月食作为严重异象、对商王忧祸的担心，以及救日仪式的类比推测。",
+          "pdfPages": [10, 11, 12],
+          "publicationPages": [91, 92, 93]
+        }
+      ]
+    }
+  ]
+}

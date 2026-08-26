@@ -1,0 +1,68 @@
+{
+  "purpose": "核心原刊本地研究清单，不向网站提供原始PDF",
+  "sources": [
+    {
+      "id": "52172",
+      "title": "故宫博物院藏甲骨卜辞中记载的祖庚时期日食",
+      "authors": ["韩宇娇"],
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=52172&dbcode=CJFD",
+      "expectedSiteFileName": "ZIJC202310010.pdf",
+      "localFile": "52172_韩宇娇_祖庚时期日食.pdf",
+      "focus": ["完整卜辞释文", "院藏甲骨编号", "祖庚时期断代依据", "误读史"]
+    },
+    {
+      "id": "50607",
+      "title": "基于JPL行星历表的殷卜辞乙巳日食观测的研究",
+      "authors": ["马利华", "韩延本", "尹志强", "乔琪源"],
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=50607&dbcode=CJFD",
+      "expectedSiteFileName": "YTWT202204014.pdf",
+      "localFile": "50607_马利华等_JPL乙巳日食.pdf",
+      "focus": ["乙巳卜辞原文", "著录号", "DE422计算参数", "安阳可见性", "预测说的证据"]
+    },
+    {
+      "id": "41722",
+      "title": "说“癸酉日食”",
+      "authors": ["杨升南"],
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=41722&dbcode=CJFD",
+      "expectedSiteFileName": null,
+      "localFile": "41722_杨升南_说癸酉日食.pdf",
+      "focus": ["癸酉卜辞原文", "著录号", "释读分歧", "断代意见"]
+    },
+    {
+      "id": "28593",
+      "title": "癸酉日食说",
+      "authors": ["李学勤"],
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=28593&dbcode=CJFD",
+      "expectedSiteFileName": null,
+      "localFile": "28593_李学勤_癸酉日食说.pdf",
+      "focus": ["癸酉材料释读", "历日对应", "学说依据"]
+    },
+    {
+      "id": "25002",
+      "title": "殷卜辞乙巳日食的初步研究",
+      "authors": ["冯时"],
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=25002&dbcode=CJFD",
+      "expectedSiteFileName": null,
+      "localFile": "25002_冯时_殷卜辞乙巳日食.pdf",
+      "focus": ["乙巳卜辞原文", "戠字释读", "断代", "日食对应"]
+    },
+    {
+      "id": "22019",
+      "title": "商朝的日食和月食记录",
+      "authors": ["郭胜强"],
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=22019&dbcode=CJFD",
+      "expectedSiteFileName": null,
+      "localFile": "22019_郭胜强_商朝日食和月食记录.pdf",
+      "focus": ["商代日食记录清单", "日食与月食辨析", "著录出处"]
+    },
+    {
+      "id": "41348",
+      "title": "中国早期的日食记录和公元前十四至公元前十一世纪日食表",
+      "authors": ["张培瑜", "徐振韬", "卢央"],
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=41348&dbcode=CJFD",
+      "expectedSiteFileName": null,
+      "localFile": "41348_张培瑜等_中国早期日食记录.pdf",
+      "focus": ["早期日食记录表", "公元纪年候选", "计算条件与误差"]
+    }
+  ]
+}

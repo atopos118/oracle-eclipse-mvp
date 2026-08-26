@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="甲骨日食资料即时问答、作品编辑与发布版本工作台。">
+  <title>日光缺口 · 研究工作台</title>
+  <link rel="icon" href="../assets/brand-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="research.css?v=20260825-1">
+</head>
+
+<body>
+  <a class="skip-link" href="#workspace-main">跳到工作区</a>
+  <header class="workbench-header">
+    <a class="workbench-brand" href="#overview"><img class="brand-mark" src="../assets/brand-mark.svg" alt="" width="34"
+        height="34"><span><strong>日光缺口</strong><small>研究工作台</small></span></a>
+    <div class="header-state"><span class="sync-state is-syncing" id="workspace-sync-state" role="status"><i
+          aria-hidden="true"></i><span>正在同步</span></span><span class="local-chip" id="access-mode">私有访问</span><button class="model-state-button" id="model-state"
+        type="button" title="检测百炼连接">本地生成</button><a href="/" target="_blank" rel="noreferrer">公众站 ↗</a><button
+        class="logout-button" id="logout-button" type="button">退出登录</button></div>
+  </header>
+  <div class="workbench-shell">
+    <aside class="workbench-nav" aria-label="研究流程">
+      <div class="nav-head"><span class="nav-caption">研究流程</span><button class="nav-collapse-toggle"
+          id="nav-collapse-toggle" type="button" aria-expanded="true" aria-controls="research-nav" title="折叠导航"><span
+            aria-hidden="true">‹</span><span class="sr-only">折叠导航</span></button></div>
+      <div id="research-nav">
+        <button class="nav-item is-active" type="button" data-section="overview" aria-label="概览"><span class="nav-icon"
+            aria-hidden="true">⌂</span><span class="nav-label">概览</span></button>
+        <button class="nav-item" type="button" data-section="sources" aria-label="资料库"><span class="nav-icon"
+            aria-hidden="true">▦</span><span class="nav-label">资料库</span></button>
+        <button class="nav-item" type="button" data-section="site-content" aria-label="站点内容"><span class="nav-icon"
+            aria-hidden="true">◫</span><span class="nav-label">站点内容</span></button>
+        <button class="nav-item" type="button" data-section="studio" aria-label="问答与输出"><span class="nav-icon"
+            aria-hidden="true">✦</span><span class="nav-label">问答与输出</span></button>
+        <button class="nav-item" type="button" data-section="publish" aria-label="审核发布"><span class="nav-icon"
+            aria-hidden="true">✓</span><span class="nav-label">审核发布</span></button>
+      </div>
+      <div class="nav-progress"><span>核心资料</span><strong id="nav-source-progress">0 / 7</strong>
+        <div><i id="nav-progress-bar"></i></div>
+      </div>
+    </aside>
+    <main id="workspace-main" class="workspace-main">
+      <section class="workspace-section is-active" id="overview" data-workspace-section>
+        <div class="workspace-heading">
+          <div><span class="eyebrow">研究总览</span>
+            <h1>研究进度</h1>
+          </div><button class="icon-command" id="refresh-dashboard" type="button" title="刷新数据"
+            aria-label="刷新数据">↻</button>
+        </div>
+        <div class="metrics-grid">
+          <article><span>原始资料</span><strong id="metric-sources">-</strong><small id="metric-reviewed">- 已确认</small>
+          </article>
+          <article class="metric-ocr"><span>OCR待处理</span><strong id="metric-ocr">-</strong><small
+              id="metric-ocr-note">文本质量门</small></article>
+          <article><span>可研究资料</span><strong id="metric-candidates">-</strong><small>OCR确认后直接使用</small></article>
+          <article><span>AI研究笔记</span><strong id="metric-knowledge">-</strong><small>不作为证据</small></article>
+          <article><span>作品草稿</span><strong id="metric-artifacts">-</strong><small>批准后进入发布准备</small></article>
+          <article class="metric-alert"><span>来源失效</span><strong id="metric-stale">-</strong><small>需要重新审核</small>
+          </article>
+        </div>
+        <div class="overview-grid">
+          <section class="work-panel">
+            <div class="panel-heading">
+              <h2>最近资料</h2><button type="button" data-go="sources">查看全部</button>
+            </div>
+            <div class="compact-list" id="overview-sources"></div>
+          </section>
+          <section class="work-panel">
+            <div class="panel-heading">
+              <h2>最近作品</h2><button type="button" data-go="studio">进入工作室</button>
+            </div>
+            <div class="compact-list" id="overview-artifacts"></div>
+          </section>
+        </div>
+        <section class="snapshot-band">
+          <div><span>当前发布版本</span><strong id="snapshot-id">尚未发布</strong></div>
+          <div><span>内容</span><strong id="snapshot-counts">-</strong></div><button class="command secondary"
+            type="button" data-go="publish">管理版本</button>
+        </section>
+      </section>
+
+      <section class="workspace-section" id="sources" data-workspace-section>
+        <div class="workspace-heading">
+          <div><span class="eyebrow">证据整理</span>
+            <h1>资料库</h1>
+          </div><span class="section-count" id="source-count">0 项</span>
+        </div>
+        <section class="import-panel">
+          <div class="segmented" role="tablist" aria-label="资料类型"><button class="is-active" type="button"
+              data-import-tab="pdf">PDF</button><button type="button" data-import-tab="url">网页链接</button><button
+              type="button" data-import-tab="manual">手动文本</button></div>
+          <form id="import-form">
+            <div class="import-fields is-active" data-import-panel="pdf"><label>资料标题<input id="pdf-title" type="text"
+                  placeholder="可留空，默认使用文件名"></label><label class="file-field">PDF文件<input id="pdf-file" type="file"
+                  accept="application/pdf,.pdf"><span id="pdf-file-name">选择文件</span></label></div>
+            <div class="import-fields" data-import-panel="url"><label>资料标题<input id="url-title"
+                  type="text"></label><label>网页链接<input id="url-value" type="url"
+                  placeholder="https://example.com/article"></label></div>
+            <div class="import-fields" data-import-panel="manual"><label>资料标题<input id="manual-title"
+                  type="text"></label><label class="wide-field">正文<textarea id="manual-text"
+                  rows="4"></textarea></label></div><button class="command primary" id="import-submit" type="submit">＋
+              汇入资料</button>
+          </form>
+        </section>
+        <section class="three-pane source-workbench">
+          <div class="list-pane">
+            <div class="pane-toolbar"><strong>全部资料</strong>
+              <div><button type="button" data-source-bulk="ocr">批量OCR</button><button type="button"
+                  data-source-bulk="review">批量确认</button><button type="button" data-source-bulk="unreview">取消确认</button>
+              </div>
+            </div>
+            <div class="selection-bar"><label><input id="source-select-all" type="checkbox"> 全选</label><span
+                id="source-selected-count">未选择</span></div>
+            <div id="source-list" class="entity-list"></div>
+          </div>
+          <div class="pane-resizer" id="source-pane-resizer" data-pane-resizer="sourceList" role="separator"
+            aria-label="调整资料列表宽度" aria-orientation="vertical" aria-valuemin="260" aria-valuemax="520"
+            aria-valuenow="324" tabindex="0" title="拖动调宽，双击恢复默认宽度"></div>
+          <aside id="source-inspector" class="inspector">
+            <div class="inspector-empty">选择一项资料查看OCR质量、页码原文、确认记录和依赖关系。</div>
+          </aside>
+        </section>
+      </section>
+
+      <section class="workspace-section" id="site-content" data-workspace-section>
+        <div class="workspace-heading">
+          <div><span class="eyebrow">公众内容</span>
+            <h1>站点内容</h1>
+            <p class="heading-note">统一编排公众站栏目、数据简码与页面内容。手动或 AI 生成都会先保存为草稿，批准后随新版本发布。</p>
+          </div><span class="section-count" id="site-content-count">读取栏目</span>
+        </div>
+        <section class="three-pane site-content-workbench">
+          <div class="site-content-nav-pane">
+            <div class="pane-toolbar site-section-toolbar"><div><strong>公众栏目</strong><span id="site-content-ready-count">0 / 0 已批准</span></div><button type="button" id="add-site-section" title="新增栏目">＋ 新增</button></div>
+            <div id="site-content-list" class="site-content-list">
+              <p class="inspector-empty">正在读取栏目…</p>
+            </div>
+            <div class="site-content-flow-note">
+              <span>发布流程</span>
+              <p>编辑或 AI 生成 → 批准 → 发布新版本。当前公众版本在新版本发布前保持不变。</p>
+            </div>
+          </div>
+          <div class="pane-resizer" data-pane-resizer="siteNavigation" role="separator" aria-label="调整内容列表宽度"
+            aria-orientation="vertical" aria-valuemin="240" aria-valuemax="420" aria-valuenow="286" tabindex="0"
+            title="拖动调宽，双击恢复默认宽度"></div>
+          <div class="site-content-editor-pane">
+            <div id="site-content-editor" class="site-content-editor">
+              <div class="inspector-empty">选择一个栏目开始编辑。</div>
+            </div>
+          </div>
+          <div class="pane-resizer" data-pane-resizer="siteEditor" role="separator" aria-label="调整内容编辑区宽度"
+            aria-orientation="vertical" aria-valuemin="480" aria-valuemax="980" aria-valuenow="680" tabindex="0"
+            title="拖动调宽，双击恢复默认宽度"></div>
+          <aside class="site-content-assistant-pane">
+            <div class="assistant-heading"><span>AI 编辑</span><strong>栏目生成</strong><small>读取当前编辑内容，生成结果只保存为草稿。</small></div>
+            <div class="site-generation-modes" id="site-generation-modes" role="radiogroup" aria-label="选择栏目生成范围">
+              <button type="button" class="site-generation-mode is-active" data-site-generation-mode="section_package" aria-pressed="true"><span aria-hidden="true"></span><strong>生成完整栏目</strong><small>引言、导航名、标题、摘要、HTML、组件文案和栏目配图</small></button>
+              <button type="button" class="site-generation-mode" data-site-generation-mode="html_body" aria-pressed="false"><span aria-hidden="true"></span><strong>仅生成正文 HTML</strong><small>参考现有栏目信息，只替换 HTML 正文</small></button>
+            </div>
+            <p class="assistant-description" id="site-generation-description">生成当前栏目的完整内容包，并调用百炼生成一张栏目配图。</p>
+            <label>自定义提示词 <small>可留空；用于补充受众、语气、重点或页面组织要求</small><textarea id="site-content-instruction"
+                rows="9" maxlength="1600" placeholder="例如：面向第一次了解日食的公众，先从可观察现象切入，语言简洁，保留科学边界。"></textarea></label>
+            <div class="assistant-counter"><output id="site-content-instruction-count">0</output> / 1600</div>
+            <button class="command primary" id="generate-site-content" type="button">生成完整栏目</button>
+            <div class="assistant-boundary"><strong>生成边界</strong><p>不会直接发布，也不会补写甲骨释文、著录号、断代或学者结论。完整栏目模式会替换当前草稿字段；仅 HTML 模式不修改栏目其他内容。</p></div>
+            <div class="site-content-audit" id="site-content-audit"></div>
+          </aside>
+        </section>
+        <dialog class="site-section-dialog" id="site-section-dialog">
+          <form method="dialog" id="site-section-create-form">
+            <header><div><span>NEW SECTION</span><h2>新增公众栏目</h2></div><button value="cancel" aria-label="关闭" title="关闭">×</button></header>
+            <label>栏目标题<input name="title" maxlength="120" required placeholder="例如：如何安全观测日食"></label>
+            <div class="site-form-grid"><label>导航名称<input name="navLabel" maxlength="30" placeholder="安全观测"></label><label>栏目类型<select name="sectionType"><option value="standard">网页内容</option><option value="data">研究数据栏目</option></select></label></div>
+            <label>引言<input name="kicker" maxlength="80" placeholder="先保证观测安全"></label>
+            <label>摘要<textarea name="summary" rows="4" maxlength="800" placeholder="用一段话说明本栏目的内容范围。"></textarea></label>
+            <footer><button value="cancel" class="command secondary">取消</button><button type="submit" value="default" class="command primary">创建草稿</button></footer>
+          </form>
+        </dialog>
+      </section>
+
+      <section class="workspace-section" id="studio" data-workspace-section>
+        <div class="workspace-heading">
+          <div><span class="eyebrow">私有研究与创作</span>
+            <h1>问答与输出</h1>
+            <p class="heading-note">资料解析成功后即可探索；问答和生成内容均先保留为私有研究结果。</p>
+          </div><span class="section-count" id="artifact-count">0 项作品</span>
+        </div>
+        <section class="three-pane studio-pane">
+          <div class="studio-setup">
+            <div class="research-lane-title">
+              <span>私有研究通道</span><strong>OCR确认后即可使用</strong><small>原始资料可直接用于问答与输出</small>
+            </div>
+            <div class="field-label">选择资料 <small>仅显示原始证据资料</small></div>
+            <div id="studio-source-list" class="source-check-list"></div>
+            <form id="research-ask-form" class="research-ask"><label for="research-question">基于所选资料提问</label><textarea
+                id="research-question" rows="4" placeholder="例如：这些论文对乙巳日食的年代判断有哪些分歧？"></textarea><button
+                class="command primary" id="research-ask-submit" type="submit">提问</button></form>
+            <div id="research-answer" class="research-answer" aria-live="polite">
+              <p>选择资料并提出问题，回答会附上资料页码与确认状态。</p>
+            </div>
+            <div class="studio-divider"><span>生成可编辑草稿</span></div>
+            <div class="field-label">核心研究作品 <small>首版四类模板</small></div>
+            <div class="output-modes" id="output-modes"><button class="is-active" type="button"
+                data-output-kind="record_table"><strong>记录表</strong><small>著录、年代与争议</small></button><button
+                type="button"
+                data-output-kind="viewpoint_comparison"><strong>观点对照</strong><small>学者意见与分歧</small></button><button
+                type="button"
+                data-output-kind="public_explainer"><strong>大众讲解稿</strong><small>公众可读版本</small></button><button
+                type="button" data-output-kind="audio_guide"><strong>音频导览</strong><small>正式WAV音频</small></button></div>
+            <div class="field-label media-field-label">视觉与媒体 <small>生成后仍需事实与视觉审核</small></div>
+            <div class="output-modes media-output-modes"><button type="button"
+                data-output-kind="visual_card_set"><strong>图卡组</strong><small>PNG图片包</small></button><button
+                type="button" data-output-kind="slide_deck"><strong>幻灯片</strong><small>PPTX演示</small></button><button
+                type="button" data-output-kind="video_package"><strong>可播放视频</strong><small>短片与分镜</small></button></div>
+            <label class="field-label">更多作品类型<select id="output-kind-select">
+                <option value="research_qa">资料问答研究笔记</option>
+              </select></label><label class="field-label generation-instruction-field" for="generation-instruction">生成要求
+              <small>可选，只控制受众、语气、篇幅与侧重点</small><textarea id="generation-instruction" rows="3" maxlength="500"
+                placeholder="例如：面向高中生，控制在3分钟内，重点解释不同学者的年代分歧。"></textarea><span class="field-counter"><output
+                  id="generation-instruction-count">0</output> / 500</span></label><button class="command primary"
+              id="generate-artifact" type="button">生成草稿</button><small class="studio-boundary"></small>
+          </div>
+          <div class="pane-resizer" data-pane-resizer="studioSetup" role="separator" aria-label="调整问答与生成区域宽度"
+            aria-orientation="vertical" aria-valuemin="280" aria-valuemax="560" aria-valuenow="360" tabindex="0"
+            title="拖动调宽，双击恢复默认宽度"></div>
+          <div class="list-pane">
+            <div class="pane-toolbar"><strong>作品列表</strong>
+              <div><button type="button" data-artifact-bulk="approve">批量审核</button></div>
+            </div>
+            <div class="selection-bar"><label><input id="artifact-select-all" type="checkbox"> 全选</label><span
+                id="artifact-selected-count">未选择</span></div>
+            <div id="artifact-list" class="entity-list"></div>
+          </div>
+          <div class="pane-resizer" data-pane-resizer="studioList" role="separator" aria-label="调整作品列表宽度"
+            aria-orientation="vertical" aria-valuemin="280" aria-valuemax="560" aria-valuenow="350" tabindex="0"
+            title="拖动调宽，双击恢复默认宽度"></div>
+          <aside id="artifact-inspector" class="inspector">
+            <div class="inspector-empty">选择作品查看完整内容、来源关系和发布状态。</div>
+          </aside>
+        </section>
+      </section>
+
+      <section class="workspace-section" id="publish" data-workspace-section>
+        <div class="workspace-heading">
+          <div><span class="eyebrow">审核与发布</span>
+            <h1>审核发布</h1>
+          </div><span class="section-count" id="publish-readiness">检查中</span>
+        </div>
+        <section class="release-gate">
+          <div class="release-intro"><span>发布目标</span><strong>公众端发布版本</strong><small>批准是研究工作台内部状态；发布版本才会更新公众端。每个版本均保留说明、内容统计和来源边界。</small>
+          </div>
+          <form class="release-form" id="release-form">
+            <label><span>版本名称 <small>选填，最多80字</small></span><input id="release-title" name="title"
+                maxlength="80" placeholder="例如：七篇核心论文首轮发布"></label>
+            <label><span>版本说明 <small><output id="release-description-count">0</output> / 500</small></span><textarea
+                id="release-description" name="description" maxlength="500" rows="3"
+                placeholder="说明本次新增、修订或撤销的内容"></textarea></label>
+            <div class="release-form-footer"><small id="release-content-summary">正在统计本次发布内容</small><button
+                class="command danger" id="publish-snapshot" type="submit">发布新版本</button></div>
+          </form>
+        </section>
+        <div class="release-layout">
+          <section class="work-panel">
+            <div class="panel-heading">
+              <h2>版本历史</h2><span id="snapshot-history-count">0</span>
+            </div>
+            <div id="snapshot-history" class="history-list"></div>
+          </section>
+          <section class="work-panel">
+            <div class="panel-heading">
+              <h2>发布前检查</h2><span id="publish-check-count">0</span>
+            </div>
+            <div id="publish-checks" class="check-list"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="research.js?v=20260825-3" defer></script>
+</body>
+
+</html>

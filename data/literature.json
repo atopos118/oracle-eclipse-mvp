@@ -1,0 +1,174 @@
+{
+  "dataset": "殷契文渊日食研究文献公开检索元数据",
+  "query": "日食",
+  "source": "https://jgw.aynu.edu.cn/home/wx/index.html",
+  "retrievedAt": "2026-07-20T03:15:36.118800+00:00",
+  "collectionPolicy": {
+    "authentication": "研究资料由用户在获授权的登录会话中取得；项目不保存账号凭据或浏览器Cookie",
+    "scope": "公开展示题名、作者、来源、发表时间、记录标识、来源链接及页码级核验结论",
+    "privateResearchCopies": "授权取得的PDF仅存于本地source-materials目录，用于研究与知识库提取，不公开分发",
+    "rateLimitSeconds": 1.5
+  },
+  "reportedTotal": 13,
+  "items": [
+    {
+      "id": "52172",
+      "title": "故宫博物院藏甲骨卜辞中记载的祖庚时期日食",
+      "authors": [
+        "韩宇娇"
+      ],
+      "publication": "紫禁城",
+      "publishedAt": "2023-10-15",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=52172&dbcode=CJFD",
+      "access": "研究副本已本地取得并完成页码核验；原始PDF不公开分发"
+    },
+    {
+      "id": "50607",
+      "title": "基于JPL行星历表的殷卜辞乙巳日食观测的研究",
+      "authors": [
+        "马利华",
+        "韩延本",
+        "尹志强",
+        "乔琪源"
+      ],
+      "publication": "天文研究与技术",
+      "publishedAt": "2021-08-24 11:40",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=50607&dbcode=CJFD",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "41722",
+      "title": "说“癸酉日食”",
+      "authors": [
+        "杨升南"
+      ],
+      "publication": "殷都学刊",
+      "publishedAt": "2019-06-15",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=41722&dbcode=CJFD",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "39369",
+      "title": "中国古代的日食研究",
+      "authors": [
+        "薄树人"
+      ],
+      "publication": "天文爱好者",
+      "publishedAt": "2008-05",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=39369&dbcode=CJFD",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "28593",
+      "title": "癸酉日食说",
+      "authors": [
+        "李学勤"
+      ],
+      "publication": "中国文化研究",
+      "publishedAt": "1998-08-28",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=28593&dbcode=CJFD",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "25002",
+      "title": "殷卜辞乙巳日食的初步研究",
+      "authors": [
+        "冯时"
+      ],
+      "publication": "自然科学史研究",
+      "publishedAt": "1992-07-01",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=25002&dbcode=CJFD",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "52428",
+      "title": "殷卜辞乙已日食的初步研究",
+      "authors": [
+        "馮時"
+      ],
+      "publication": "自然科学史研究",
+      "publishedAt": "1992",
+      "dbCode": "EMPTY",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=52428&dbcode=EMPTY",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "22019",
+      "title": "商朝的日食和月食记录",
+      "authors": [
+        "郭胜强"
+      ],
+      "publication": "史学月刊",
+      "publishedAt": "1987-01-21",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=22019&dbcode=CJFD",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "52387",
+      "title": "商朝的日食和月食记录",
+      "authors": [
+        "郭胜强"
+      ],
+      "publication": "史学月刊",
+      "publishedAt": "1987",
+      "dbCode": "EMPTY",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=52387&dbcode=EMPTY",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "41348",
+      "title": "中国早期的日食记录和公元前十四至公元前十一世纪日食表",
+      "authors": [
+        "张培瑜 徐振韬 卢央"
+      ],
+      "publication": "南京大学学报(自然科学报〕",
+      "publishedAt": "1982-02-10",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=41348&dbcode=CJFD",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "55734",
+      "title": "中康日食",
+      "authors": [
+        "董作宾"
+      ],
+      "publication": "古历傳時說代中之第四章",
+      "publishedAt": "1977-11",
+      "dbCode": "EMPTY",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=55734&dbcode=EMPTY",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "41410",
+      "title": "中康日食考辨",
+      "authors": [
+        "杨宪益"
+      ],
+      "publication": "零墨新笺",
+      "publishedAt": "",
+      "dbCode": "CJFD",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=41410&dbcode=CJFD",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    },
+    {
+      "id": "58903",
+      "title": "中国古代日食时刻记录的换算和精度分析",
+      "authors": [
+        "陈久金"
+      ],
+      "publication": "自然科学史研究第2卷",
+      "publishedAt": "",
+      "dbCode": "EMPTY",
+      "sourceUrl": "https://jgw.aynu.edu.cn/home/wx/detail/index.html?id=58903&dbcode=EMPTY",
+      "access": "详情页需登录；本文件仅保存公开搜索结果中的元数据"
+    }
+  ]
+}

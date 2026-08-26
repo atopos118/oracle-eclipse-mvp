@@ -1,0 +1,327 @@
+{"kind":"deck","id":"pr/bwfn0l","name":"Deck"}
+{"kind":"layout","layoutId":"09a7e3a6-c9f4-4737-9262-c98f78d4cdab","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"c197e9ff-968f-498f-93bc-36922bbb8895","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ax40lr","slide":1,"title":"赛道三 · 科普科教与艺术表达 / 方向 2","textShapes":5}
+{"kind":"shape","id":"sh/kf6tc36h","slide":1,"bbox":[0,0,780,720]}
+{"kind":"textbox","id":"sh/5gfal872","slide":1,"text":"赛道三 · 科普科教与艺术表达 / 方向 2","textPreview":"赛道三 · 科普科教与艺术表达 / 方向 2","textChars":22,"textLines":1,"bbox":[82,70,620,28]}
+{"kind":"textbox","id":"sh/ap4r6tof","slide":1,"text":"甲骨里的\n日光缺口","textPreview":"甲骨里的 | 日光缺口","textChars":9,"textLines":2,"bbox":[78,150,690,250]}
+{"kind":"textbox","id":"sh/vadsfep0","slide":1,"text":"基于 Qwen 的甲骨日食多元科学传播应用","textPreview":"基于 Qwen 的甲骨日食多元科学传播应用","textChars":21,"textLines":1,"bbox":[84,450,630,52]}
+{"kind":"textbox","id":"sh/wbm98j6l","slide":1,"text":"科学事实准确 · 跨媒介表达 · 人机协作修正","textPreview":"科学事实准确 · 跨媒介表达 · 人机协作修正","textChars":23,"textLines":1,"bbox":[84,582,620,30]}
+{"kind":"textbox","id":"sh/xcvaho76","slide":1,"text":"传播插图 / 非甲骨原片","textPreview":"传播插图 / 非甲骨原片","textChars":12,"textLines":1,"bbox":[1010,678,230,18]}
+{"kind":"image","id":"im/ip476d0f","slide":1,"name":"","alt":"日食与甲骨主题传播视觉，不是甲骨原片或拓片","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/ax40lr","slide":1,"text":"[Sources]\nREADME.md\nassets/hero-eclipse.png\nhttps://research-figure-guide.nature.com/covers/\nhttps://www.nature.com/natastron/volumes/10/issues/1"}
+{"kind":"slide","id":"sl/pumh5d","slide":2,"title":"作品定位","textShapes":14}
+{"kind":"textbox","id":"sh/jqpo361k","slide":2,"name":"kicker","text":"作品定位","textPreview":"作品定位","textChars":4,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/kry5cb25","slide":2,"name":"title","text":"不是一次性内容，而是一套可复用的科学传播应用","textPreview":"不是一次性内容，而是一套可复用的科学传播应用","textChars":22,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/lc765wjq","slide":2,"name":"summary","text":"甲骨日食是首个高难度示范主题，应用能够把受控资料持续转化为三类艺术表达。","textPreview":"甲骨日食是首个高难度示范主题，应用能够把受控资料持续转化为三类艺术表达。","textChars":36,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"textbox","id":"sh/alwn6hk3","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[76,302,70,42]}
+{"kind":"shape","id":"sh/bm5ozm1o","slide":2,"bbox":[76,356,334,3]}
+{"kind":"textbox","id":"sh/wne58r2t","slide":2,"text":"经典期刊视觉","textPreview":"经典期刊视觉","textChars":6,"textLines":1,"bbox":[76,386,334,46]}
+{"kind":"textbox","id":"sh/xon61wje","slide":2,"text":"科普图卡、图文摘要、机制图、时间线与可编辑幻灯片","textPreview":"科普图卡、图文摘要、机制图、时间线与可编辑幻灯片","textChars":24,"textLines":1,"bbox":[76,455,334,110]}
+{"kind":"textbox","id":"sh/uh07ilk7","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[460,302,70,42]}
+{"kind":"shape","id":"sh/vi9obq1s","slide":2,"bbox":[460,356,334,3]}
+{"kind":"textbox","id":"sh/zy90rudw","slide":2,"text":"数字交互体验","textPreview":"数字交互体验","textChars":6,"textLines":1,"bbox":[460,386,334,46]}
+{"kind":"textbox","id":"sh/ex0ji9wb","slide":2,"text":"Three.js 日食场景、甲骨记录阅读与有依据问答","textPreview":"Three.js 日食场景、甲骨记录阅读与有依据问答","textChars":26,"textLines":1,"bbox":[460,455,334,110]}
+{"kind":"textbox","id":"sh/10rit4v2","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[844,302,70,42]}
+{"kind":"shape","id":"sh/0zi1kzeh","slide":2,"bbox":[844,356,334,3]}
+{"kind":"textbox","id":"sh/n290ved8","slide":2,"text":"叙事动态艺术","textPreview":"叙事动态艺术","textChars":6,"textLines":1,"bbox":[844,386,334,46]}
+{"kind":"textbox","id":"sh/m10jm9wn","slide":2,"text":"音频导览、三分钟讲解稿、字幕与 1080P 演示视频","textPreview":"音频导览、三分钟讲解稿、字幕与 1080P 演示视频","textChars":26,"textLines":1,"bbox":[844,455,334,110]}
+{"kind":"shape","id":"sh/94bixovy","slide":2,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/o321ojed","slide":2,"text":"赛道三 · 方向 2","textPreview":"赛道三 · 方向 2","textChars":10,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/v6t0zyd4","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/pumh5d","slide":2,"text":"[Sources]\n比赛赛道三方向2说明（用户提供）\nREADME.md\nhttps://www.science.org/blogs/vis\nhttps://www.science.org/content/blog-post/best-science-graphics-2023"}
+{"kind":"slide","id":"sl/mg3su0","slide":3,"title":"研究问题","textShapes":7}
+{"kind":"textbox","id":"sh/rehkn214","slide":3,"text":"研究问题","textPreview":"研究问题","textChars":4,"textLines":1,"bbox":[74,58,260,26]}
+{"kind":"textbox","id":"sh/sfqlwn2p","slide":3,"text":"怎样让三千年前的天象记录\n既看得懂，又经得起追问？","textPreview":"怎样让三千年前的天象记录 | 既看得懂，又经得起追问？","textChars":25,"textLines":2,"bbox":[74,126,1120,190]}
+{"kind":"shape","id":"sh/tgz2psja","slide":3,"bbox":[74,384,4,150]}
+{"kind":"textbox","id":"sh/i9o3qdkn","slide":3,"text":"传播需要直观、感染力与节奏","textPreview":"传播需要直观、感染力与节奏","textChars":13,"textLines":1,"bbox":[112,388,480,52]}
+{"kind":"textbox","id":"sh/jahkji1s","slide":3,"text":"研究需要页码、分歧与不确定性","textPreview":"研究需要页码、分歧与不确定性","textChars":14,"textLines":1,"bbox":[112,472,480,52]}
+{"kind":"textbox","id":"sh/4bqlsn2d","slide":3,"text":"我们的工作，是让这两种要求在同一个产品里成立。","textPreview":"我们的工作，是让这两种要求在同一个产品里成立。","textChars":23,"textLines":1,"bbox":[684,401,470,122]}
+{"kind":"shape","id":"sh/5cz2lsjy","slide":3,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/25s32h0r","slide":3,"text":"研究问题","textPreview":"研究问题","textChars":4,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/3614vm1c","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/mg3su0","slide":3,"text":"[Sources]\ndocs/01-产品设计_MVP0.4.md\ndata/published-snapshot.json"}
+{"kind":"slide","id":"sl/m90zob","slide":4,"title":"问题拆解","textShapes":20}
+{"kind":"textbox","id":"sh/1kb2xsje","slide":4,"name":"kicker","text":"问题拆解","textPreview":"问题拆解","textChars":4,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/eh0j2xk3","slide":4,"name":"title","text":"一条“日食卜辞”，可能同时有五层不确定性","textPreview":"一条“日食卜辞”，可能同时有五层不确定性","textChars":20,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/fi9kvi1o","slide":4,"name":"summary","text":"流畅的 AI 文本很容易掩盖证据不足，因此系统必须先处理材料质量和结论边界。","textPreview":"流畅的 AI 文本很容易掩盖证据不足，因此系统必须先处理材料质量和结论边界。","textChars":38,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"textbox","id":"sh/sfi10n2x","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,286,56,28]}
+{"kind":"textbox","id":"sh/tgr2tsji","slide":4,"text":"扫描质量","textPreview":"扫描质量","textChars":4,"textLines":1,"bbox":[150,284,210,34]}
+{"kind":"textbox","id":"sh/6t0jydkr","slide":4,"text":"图片页、乱码文字层与复杂版面会造成 OCR 漏识别","textPreview":"图片页、乱码文字层与复杂版面会造成 OCR 漏识别","textChars":25,"textLines":1,"bbox":[390,286,760,32]}
+{"kind":"shape","id":"sh/re9kri1c","slide":4,"bbox":[150,328,1000,1]}
+{"kind":"textbox","id":"sh/cb2lc7i1","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[78,348,56,28]}
+{"kind":"textbox","id":"sh/xcv25cjm","slide":4,"text":"文字释读","textPreview":"文字释读","textChars":4,"textLines":1,"bbox":[150,346,210,34]}
+{"kind":"textbox","id":"sh/pcri5k3y","slide":4,"text":"残字和异体字可能存在多种读法","textPreview":"残字和异体字可能存在多种读法","textChars":14,"textLines":1,"bbox":[390,348,760,32]}
+{"kind":"shape","id":"sh/ori1cf2d","slide":4,"bbox":[150,390,1000,1]}
+{"kind":"textbox","id":"sh/nq903als","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[78,410,56,28]}
+{"kind":"textbox","id":"sh/2pgja5kn","slide":4,"text":"年代判断","textPreview":"年代判断","textChars":4,"textLines":1,"bbox":[150,408,210,34]}
+{"kind":"textbox","id":"sh/1o7i1k32","slide":4,"text":"分期、干支与公元纪年对应并不唯一","textPreview":"分期、干支与公元纪年对应并不唯一","textChars":16,"textLines":1,"bbox":[390,410,760,32]}
+{"kind":"shape","id":"sh/0ny18f2h","slide":4,"bbox":[150,452,1000,1]}
+{"kind":"textbox","id":"sh/fmp0zalw","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[78,472,56,28]}
+{"kind":"textbox","id":"sh/elgj65kb","slide":4,"text":"天文对应","textPreview":"天文对应","textChars":4,"textLines":1,"bbox":[150,470,210,34]}
+{"kind":"textbox","id":"sh/lkb2d436","slide":4,"text":"地点、历法和行星历表共同约束可见日食","textPreview":"地点、历法和行星历表共同约束可见日食","textChars":18,"textLines":1,"bbox":[390,472,760,32]}
+{"kind":"shape","id":"sh/kj21kz2l","slide":4,"bbox":[150,514,1000,1]}
+{"kind":"textbox","id":"sh/4zudw7e9","slide":4,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[78,534,56,28]}
+{"kind":"textbox","id":"sh/503upcve","slide":4,"text":"公众表达","textPreview":"公众表达","textChars":4,"textLines":1,"bbox":[150,532,210,34]}
+{"kind":"textbox","id":"sh/ixsvuxw3","slide":4,"text":"简明不能以抹去争议和证据等级为代价","textPreview":"简明不能以抹去争议和证据等级为代价","textChars":17,"textLines":1,"bbox":[390,534,760,32]}
+{"kind":"shape","id":"sh/3ylcn2do","slide":4,"bbox":[150,576,1000,1]}
+{"kind":"shape","id":"sh/wvats7ex","slide":4,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/hwju1svi","slide":4,"text":"赛道三 · 方向 2","textPreview":"赛道三 · 方向 2","textChars":10,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/u9sbqxwr","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/m90zob","slide":4,"text":"[Sources]\ndocs/01-产品设计_MVP0.4.md\nocr_pipeline.py\ntext_quality.py"}
+{"kind":"slide","id":"sl/dch1ir","slide":5,"title":"解决思路","textShapes":21}
+{"kind":"textbox","id":"sh/xk7adsni","slide":5,"name":"kicker","text":"解决思路","textPreview":"解决思路","textChars":4,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/ahgrixo7","slide":5,"name":"title","text":"把生成放进一条可审阅、可修正、可发布的闭环","textPreview":"把生成放进一条可审阅、可修正、可发布的闭环","textChars":21,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/bipsbi5s","slide":5,"name":"summary","text":"资料先确认，模型再生成；内容先修正，公众端再发布。","textPreview":"资料先确认，模型再生成；内容先修正，公众端再发布。","textChars":25,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"shape","id":"sh/ofe9gn61","slide":5,"bbox":[289.6,384,12,22]}
+{"kind":"shape","id":"sh/pg7a9snm","slide":5,"bbox":[519.2,384,12,22]}
+{"kind":"shape","id":"sh/2dwredov","slide":5,"bbox":[748.8,384,12,22]}
+{"kind":"shape","id":"sh/ne5s7i5g","slide":5,"bbox":[978.4,384,12,22]}
+{"kind":"shape","id":"sh/0be9c365","slide":5,"bbox":[74,316,213.6,164]}
+{"kind":"textbox","id":"sh/1cna587a","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90,332,48,24]}
+{"kind":"textbox","id":"sh/d4zuh0za","slide":5,"text":"资料汇入","textPreview":"资料汇入","textChars":4,"textLines":1,"bbox":[90,366,181.6,40]}
+{"kind":"textbox","id":"sh/c36d8vip","slide":5,"text":"PDF、网页与文本","textPreview":"PDF、网页与文本","textChars":9,"textLines":1,"bbox":[90,414,181.6,48]}
+{"kind":"shape","id":"sh/b2xcfqh4","slide":5,"bbox":[303.6,316,213.6,164]}
+{"kind":"textbox","id":"sh/q1ob650z","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[319.6,332,48,24]}
+{"kind":"textbox","id":"sh/p0fud0ze","slide":5,"text":"识别确认","textPreview":"识别确认","textChars":4,"textLines":1,"bbox":[319.6,366,181.6,40]}
+{"kind":"textbox","id":"sh/oz6t4vit","slide":5,"text":"逐页 OCR 与原页校核","textPreview":"逐页 OCR 与原页校核","textChars":12,"textLines":1,"bbox":[319.6,414,181.6,48]}
+{"kind":"shape","id":"sh/3yxcbqh8","slide":5,"bbox":[533.2,316,213.6,164]}
+{"kind":"textbox","id":"sh/2xob2l0n","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.2,332,48,24]}
+{"kind":"textbox","id":"sh/1wvu9gz2","slide":5,"text":"受控生成","textPreview":"受控生成","textChars":4,"textLines":1,"bbox":[549.2,366,181.6,40]}
+{"kind":"textbox","id":"sh/gvmt0bih","slide":5,"text":"问答与多模态草稿","textPreview":"问答与多模态草稿","textChars":8,"textLines":1,"bbox":[549.2,414,181.6,48]}
+{"kind":"shape","id":"sh/sralcfup","slide":5,"bbox":[762.8,316,213.6,164]}
+{"kind":"textbox","id":"sh/tsjm5kva","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.8,332,48,24]}
+{"kind":"textbox","id":"sh/6ps3a5cj","slide":5,"text":"人工修正","textPreview":"人工修正","textChars":4,"textLines":1,"bbox":[778.8,366,181.6,40]}
+{"kind":"textbox","id":"sh/rq143ad4","slide":5,"text":"编辑、批准或驳回","textPreview":"编辑、批准或驳回","textChars":8,"textLines":1,"bbox":[778.8,414,181.6,48]}
+{"kind":"shape","id":"sh/4nql8vut","slide":5,"bbox":[992.4,316,213.6,164]}
+{"kind":"textbox","id":"sh/5ojm10vy","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1008.4,332,48,24]}
+{"kind":"textbox","id":"sh/il8365cn","slide":5,"text":"版本发布","textPreview":"版本发布","textChars":4,"textLines":1,"bbox":[1008.4,366,181.6,40]}
+{"kind":"textbox","id":"sh/jmhkzad8","slide":5,"text":"公众端稳定读取","textPreview":"公众端稳定读取","textChars":7,"textLines":1,"bbox":[1008.4,414,181.6,48]}
+{"kind":"textbox","id":"sh/ojulkzux","slide":5,"text":"模型输出不会自动回流为证据","textPreview":"模型输出不会自动回流为证据","textChars":13,"textLines":1,"bbox":[390,540,500,34]}
+{"kind":"shape","id":"sh/pk3md4bi","slide":5,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/zepo3yxk","slide":5,"text":"赛道三 · 方向 2","textPreview":"赛道三 · 方向 2","textChars":10,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/ydw7atwz","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/dch1ir","slide":5,"text":"[Sources]\ndocs/03-系统架构_MVP0.4.md\ndocs/04-开发计划_MVP0.4.md"}
+{"kind":"slide","id":"sl/m0rn0r","slide":6,"title":"数字交互体验","textShapes":12}
+{"kind":"textbox","id":"sh/nuxg7y9k","slide":6,"name":"kicker","text":"数字交互体验","textPreview":"数字交互体验","textChars":6,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/ov6hg3q5","slide":6,"name":"title","text":"先让月影动起来，再解释为什么不是每月都有日食","textPreview":"先让月影动起来，再解释为什么不是每月都有日食","textChars":22,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/9wfi98rq","slide":6,"name":"summary","text":"公众可拖动视角、改变轨道偏角，并切换日全食、日环食和日偏食。","textPreview":"公众可拖动视角、改变轨道偏角，并切换日全食、日环食和日偏食。","textChars":30,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"shape","id":"sh/z6dg3y9o","slide":6,"bbox":[780,286,2,300]}
+{"kind":"textbox","id":"sh/0rmhc3q9","slide":6,"text":"拖动","textPreview":"拖动","textChars":2,"textLines":1,"bbox":[820,298,110,34]}
+{"kind":"textbox","id":"sh/1svy58re","slide":6,"text":"改变观察视角","textPreview":"改变观察视角","textChars":6,"textLines":1,"bbox":[938,300,250,34]}
+{"kind":"textbox","id":"sh/q1kz6t8r","slide":6,"text":"调节","textPreview":"调节","textChars":2,"textLines":1,"bbox":[820,390,110,34]}
+{"kind":"textbox","id":"sh/r2dgze9c","slide":6,"text":"观察月球偏离黄道面","textPreview":"观察月球偏离黄道面","textChars":9,"textLines":1,"bbox":[938,392,250,34]}
+{"kind":"textbox","id":"sh/b2p4r6lo","slide":6,"text":"切换","textPreview":"切换","textChars":2,"textLines":1,"bbox":[820,482,110,34]}
+{"kind":"textbox","id":"sh/q1g3i1k3","slide":6,"text":"比较三种日食类型","textPreview":"比较三种日食类型","textChars":8,"textLines":1,"bbox":[938,484,250,34]}
+{"kind":"textbox","id":"sh/d47mtg3u","slide":6,"text":"公网地址部署后由二维码进入","textPreview":"公网地址部署后由二维码进入","textChars":13,"textLines":1,"bbox":[820,568,360,26]}
+{"kind":"shape","id":"sh/c3ylkb29","slide":6,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/zq94vql0","slide":6,"text":"数字交互与体验类","textPreview":"数字交互与体验类","textChars":8,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/y503mlkf","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"image","id":"im/3mdgvqxk","slide":6,"name":"","alt":"日食几何传播示意","bbox":[66,282,670,318]}
+{"kind":"notes","id":"nt/m0rn0r","slide":6,"text":"[Sources]\nindex.html#science\neclipse-three.js\nassets/eclipse-mechanism.png"}
+{"kind":"slide","id":"sl/lexoco","slide":7,"title":"证据阅读体验","textShapes":8}
+{"kind":"textbox","id":"sh/utgrulsf","slide":7,"name":"kicker","text":"证据阅读体验","textPreview":"证据阅读体验","textChars":6,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/hw7q50b6","slide":7,"name":"title","text":"每一条记录都把“结论”与“争议”同时打开","textPreview":"每一条记录都把“结论”与“争议”同时打开","textChars":20,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/gvy9wval","slide":7,"name":"summary","text":"点击卜辞可展开基本释义、年代、学者观点与争议；多个条目可以同时比较。","textPreview":"点击卜辞可展开基本释义、年代、学者观点与争议；多个条目可以同时比较。","textChars":34,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"textbox","id":"sh/6pwrqlsj","slide":7,"text":"癸酉贞，明有食，惟若。","textPreview":"癸酉贞，明有食，惟若。","textChars":11,"textLines":1,"bbox":[486,286,650,48]}
+{"kind":"textbox","id":"sh/ts7q10bu","slide":7,"text":"释义：能确认什么，哪些字仍待复核\n年代：学者分期并列，不合并为单一答案\n观点：每项判断保留作者和来源页码\n争议：日食实录、预占与公元纪年对应分开表达","textPreview":"释义：能确认什么，哪些字仍待复核 | 年代：学者分期并列，不合并为单一答案 | 观点：每项判断保留作者和来源页码 | 争议：日食实录、预占与公元纪年对应分开表达","textChars":74,"textLines":4,"bbox":[488,362,660,205]}
+{"kind":"textbox","id":"sh/8re9svap","slide":7,"text":"传播插图 / 非甲骨原片","textPreview":"传播插图 / 非甲骨原片","textChars":12,"textLines":1,"bbox":[76,616,360,20]}
+{"kind":"shape","id":"sh/j258v6ts","slide":7,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/y1w7m1s7","slide":7,"text":"数字交互与体验类","textPreview":"数字交互与体验类","textChars":8,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/knedkrix","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"image","id":"im/a14vq1kv","slide":7,"name":"","alt":"甲骨主题传播插图，不是原片","bbox":[76,278,360,330]}
+{"kind":"notes","id":"nt/lexoco","slide":7,"text":"[Sources]\nindex.html#oracle\ndata/published-snapshot.json\nassets/evidence-oracle.png"}
+{"kind":"slide","id":"sl/k38gcm","slide":8,"title":"多元艺术表达","textShapes":11}
+{"kind":"textbox","id":"sh/r29gry14","slide":8,"name":"kicker","text":"多元艺术表达","textPreview":"多元艺术表达","textChars":6,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/s3ix03ip","slide":8,"name":"title","text":"同一组研究资料，可以转译为不同受众需要的作品","textPreview":"同一组研究资料，可以转译为不同受众需要的作品","textChars":22,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/t4ryt8ja","slide":8,"name":"summary","text":"输出不是固定模板文件，而是可在线编辑、审核并再次生成的作品草稿。","textPreview":"输出不是固定模板文件，而是可在线编辑、审核并再次生成的作品草稿。","textChars":32,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"shape","id":"sh/ixgfut0n","slide":8,"bbox":[76,292,336,6]}
+{"kind":"textbox","id":"sh/jypgny18","slide":8,"text":"看","textPreview":"看","textChars":1,"textLines":1,"bbox":[76,330,130,84]}
+{"kind":"textbox","id":"sh/4zixw3it","slide":8,"text":"图卡 · 图文摘要\n机制图 · 时间线\n幻灯片 · 数据可视化","textPreview":"图卡 · 图文摘要 | 机制图 · 时间线 | 幻灯片 · 数据可视化","textChars":31,"textLines":3,"bbox":[76,430,330,150]}
+{"kind":"shape","id":"sh/50ryp8je","slide":8,"bbox":[460,292,336,6]}
+{"kind":"textbox","id":"sh/u9gfqt0r","slide":8,"text":"听","textPreview":"听","textChars":1,"textLines":1,"bbox":[460,330,130,84]}
+{"kind":"textbox","id":"sh/vapwje1c","slide":8,"text":"大众讲解 · 学生版\n研究者版 · 音频导览\n三分钟讲解稿","textPreview":"大众讲解 · 学生版 | 研究者版 · 音频导览 | 三分钟讲解稿","textChars":29,"textLines":3,"bbox":[460,430,330,150]}
+{"kind":"shape","id":"sh/fy1sbe5c","slide":8,"bbox":[844,292,336,6]}
+{"kind":"textbox","id":"sh/uxsri9or","slide":8,"text":"参与","textPreview":"参与","textChars":2,"textLines":1,"bbox":[844,330,130,84]}
+{"kind":"textbox","id":"sh/h0jadon2","slide":8,"text":"互动场景 · 资料问答\n白板 · 思维导图\n视频制作包","textPreview":"互动场景 · 资料问答 | 白板 · 思维导图 | 视频制作包","textChars":27,"textLines":3,"bbox":[844,430,330,150]}
+{"kind":"shape","id":"sh/gza9kj6x","slide":8,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/32lsfy58","slide":8,"text":"经典期刊视觉 · 叙事动态艺术","textPreview":"经典期刊视觉 · 叙事动态艺术","textChars":15,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/21srmton","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/k38gcm","slide":8,"text":"[Sources]\nREADME.md（MVP 0.4 输出能力）\ndocs/05-预期成果_MVP0.4.md\nhttps://github.com/dwzhu-pku/PaperBanana\nhttps://github.com/HaozheZhao/Crafter"}
+{"kind":"slide","id":"sl/oc2di3","slide":9,"title":"人机协作修正","textShapes":21}
+{"kind":"textbox","id":"sh/idw32t0r","slide":9,"name":"kicker","text":"人机协作修正","textPreview":"人机协作修正","textChars":6,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/5g7mdoj2","slide":9,"name":"title","text":"生成不是终点，反馈会推动下一版作品","textPreview":"生成不是终点，反馈会推动下一版作品","textChars":17,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/4fyl43ih","slide":9,"name":"summary","text":"应用把“发现不足—人工建议—再次生成—批准发布”做成可复用流程。","textPreview":"应用把“发现不足—人工建议—再次生成—批准发布”做成可复用流程。","textChars":32,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"shape","id":"sh/vq547e10","slide":9,"bbox":[289.6,380,12,22]}
+{"kind":"shape","id":"sh/upw3y90f","slide":9,"bbox":[519.2,380,12,22]}
+{"kind":"shape","id":"sh/hsnm9oj6","slide":9,"bbox":[748.8,380,12,22]}
+{"kind":"shape","id":"sh/wrel0jil","slide":9,"bbox":[978.4,380,12,22]}
+{"kind":"shape","id":"sh/7ml43e14","slide":9,"bbox":[74,312,213.6,164]}
+{"kind":"textbox","id":"sh/mlc3u90j","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90,328,48,24]}
+{"kind":"textbox","id":"sh/c3axg7q5","slide":9,"text":"选择资料","textPreview":"选择资料","textChars":4,"textLines":1,"bbox":[90,362,181.6,40]}
+{"kind":"textbox","id":"sh/d4jy9cra","slide":9,"text":"限定来源和页码","textPreview":"限定来源和页码","textChars":7,"textLines":1,"bbox":[90,410,181.6,48]}
+{"kind":"shape","id":"sh/q18feh8z","slide":9,"bbox":[303.6,312,213.6,164]}
+{"kind":"textbox","id":"sh/b21g729k","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[319.6,328,48,24]}
+{"kind":"textbox","id":"sh/ozqxc7qt","slide":9,"text":"生成草稿","textPreview":"生成草稿","textChars":4,"textLines":1,"bbox":[319.6,362,181.6,40]}
+{"kind":"textbox","id":"sh/p0zy5cre","slide":9,"text":"记录模型与提示词","textPreview":"记录模型与提示词","textChars":8,"textLines":1,"bbox":[319.6,410,181.6,48]}
+{"kind":"shape","id":"sh/2x8fax8n","slide":9,"bbox":[533.2,312,213.6,164]}
+{"kind":"textbox","id":"sh/3yhgj298","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.2,328,48,24]}
+{"kind":"textbox","id":"sh/8vuhorqx","slide":9,"text":"发现不足","textPreview":"发现不足","textChars":4,"textLines":1,"bbox":[549.2,362,181.6,40]}
+{"kind":"textbox","id":"sh/9w3yhwri","slide":9,"text":"编辑、驳回或标注","textPreview":"编辑、驳回或标注","textChars":8,"textLines":1,"bbox":[549.2,410,181.6,48]}
+{"kind":"shape","id":"sh/xgf6lsfq","slide":9,"bbox":[762.8,312,213.6,164]}
+{"kind":"textbox","id":"sh/wf6pc7e5","slide":9,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.8,328,48,24]}
+{"kind":"textbox","id":"sh/vexoj2xk","slide":9,"text":"再次修正","textPreview":"再次修正","textChars":4,"textLines":1,"bbox":[778.8,362,181.6,40]}
+{"kind":"textbox","id":"sh/ado7axwz","slide":9,"text":"保留上一版与变更","textPreview":"保留上一版与变更","textChars":8,"textLines":1,"bbox":[778.8,410,181.6,48]}
+{"kind":"shape","id":"sh/9cf6hsfe","slide":9,"bbox":[992.4,312,213.6,164]}
+{"kind":"textbox","id":"sh/8b6p8net","slide":9,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1008.4,328,48,24]}
+{"kind":"textbox","id":"sh/nadofix8","slide":9,"text":"批准发布","textPreview":"批准发布","textChars":4,"textLines":1,"bbox":[1008.4,362,181.6,40]}
+{"kind":"textbox","id":"sh/m9476dw3","slide":9,"text":"进入公众版本","textPreview":"进入公众版本","textChars":6,"textLines":1,"bbox":[1008.4,410,181.6,48]}
+{"kind":"textbox","id":"sh/l8v6d8fi","slide":9,"text":"来源更新后，依赖作品自动进入“需要重新复核”","textPreview":"来源更新后，依赖作品自动进入“需要重新复核”","textChars":22,"textLines":1,"bbox":[310,542,660,36]}
+{"kind":"shape","id":"sh/07mp4nex","slide":9,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/qdk3e9cv","slide":9,"text":"方向 2 加分能力：生成后持续改进","textPreview":"方向 2 加分能力：生成后持续改进","textChars":17,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/bet4ned0","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/oc2di3","slide":9,"text":"[Sources]\nresearch_store.py\nsnapshot_manager.py\ntests/test_research_workflow.py\n比赛赛道三方向2说明（用户提供）"}
+{"kind":"slide","id":"sl/7zx5k7","slide":10,"title":"AI 创作工作流","textShapes":17}
+{"kind":"textbox","id":"sh/ypgb2hw7","slide":10,"name":"kicker","text":"AI 创作工作流","textPreview":"AI 创作工作流","textChars":8,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/ls7udcvi","slide":10,"name":"title","text":"通用模型负责理解与生成，领域约束负责守住边界","textPreview":"通用模型负责理解与生成，领域约束负责守住边界","textChars":22,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/0ryt47ex","slide":10,"name":"summary","text":"项目没有自行训练基础模型，采用受控检索、结构化生成和人工审核。","textPreview":"项目没有自行训练基础模型，采用受控检索、结构化生成和人工审核。","textChars":31,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"textbox","id":"sh/nu9cfmdo","slide":10,"text":"Qwen Plus","textPreview":"Qwen Plus","textChars":9,"textLines":1,"bbox":[80,286,230,28]}
+{"kind":"textbox","id":"sh/mt0b6hw3","slide":10,"text":"资料问答、结构化作品、受众转译","textPreview":"资料问答、结构化作品、受众转译","textChars":15,"textLines":1,"bbox":[320,286,500,28]}
+{"kind":"textbox","id":"sh/9wruhwvu","slide":10,"text":"Qwen VL OCR","textPreview":"Qwen VL OCR","textChars":11,"textLines":1,"bbox":[80,345,230,28]}
+{"kind":"textbox","id":"sh/8vit8re9","slide":10,"text":"扫描论文识别与逐页重建","textPreview":"扫描论文识别与逐页重建","textChars":11,"textLines":1,"bbox":[320,345,500,28]}
+{"kind":"textbox","id":"sh/3y5s32dk","slide":10,"text":"Qwen TTS","textPreview":"Qwen TTS","textChars":8,"textLines":1,"bbox":[80,404,230,28]}
+{"kind":"textbox","id":"sh/2xwbuxwz","slide":10,"text":"审核前音频导览合成","textPreview":"审核前音频导览合成","textChars":9,"textLines":1,"bbox":[320,404,500,28]}
+{"kind":"textbox","id":"sh/43690ja5","slide":10,"text":"百炼文生图","textPreview":"百炼文生图","textChars":5,"textLines":1,"bbox":[80,463,230,28]}
+{"kind":"textbox","id":"sh/54zatora","slide":10,"text":"明确标注的传播插图","textPreview":"明确标注的传播插图","textChars":9,"textLines":1,"bbox":[320,463,500,28]}
+{"kind":"textbox","id":"sh/i1ory9sz","slide":10,"text":"Three.js / 本地导出","textPreview":"Three.js / 本地导出","textChars":15,"textLines":1,"bbox":[80,522,230,28]}
+{"kind":"textbox","id":"sh/32xsre9k","slide":10,"text":"互动、PPTX、PNG、WAV、SRT","textPreview":"互动、PPTX、PNG、WAV、SRT","textChars":19,"textLines":1,"bbox":[320,522,500,28]}
+{"kind":"shape","id":"sh/s7q94ja1","slide":10,"bbox":[872,286,300,252]}
+{"kind":"textbox","id":"sh/d8zaxorm","slide":10,"text":"不做什么","textPreview":"不做什么","textChars":4,"textLines":1,"bbox":[906,320,230,38]}
+{"kind":"textbox","id":"sh/q58r29sv","slide":10,"text":"不训练基础模型\n不把生成结果当证据\n不隐藏学术分歧\n不公开原始 PDF","textPreview":"不训练基础模型 | 不把生成结果当证据 | 不隐藏学术分歧 | 不公开原始 PDF","textChars":35,"textLines":4,"bbox":[906,382,230,130]}
+{"kind":"shape","id":"sh/r6hsve9g","slide":10,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/8bm9szax","slide":10,"text":"AI 工作流说明","textPreview":"AI 工作流说明","textChars":8,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/tcfal4bi","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/7zx5k7","slide":10,"text":"[Sources]\nbailian_adapter.py\nocr_pipeline.py\nmedia_exports.py\ndocs/03-系统架构_MVP0.4.md"}
+{"kind":"slide","id":"sl/94t0qi","slide":11,"title":"应用技术架构","textShapes":11}
+{"kind":"textbox","id":"sh/72h4zedo","slide":11,"name":"kicker","text":"应用技术架构","textPreview":"应用技术架构","textChars":6,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/s3a5sju9","slide":11,"name":"title","text":"研究端形成可信内容，公众端只读取审核后的发布版本","textPreview":"研究端形成可信内容，公众端只读取审核后的发布版本","textChars":24,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/t4j61ove","slide":11,"name":"summary","text":"原始资料与公众体验彻底分层，既支持研究工作，也避免私有材料外泄。","textPreview":"原始资料与公众体验彻底分层，既支持研究工作，也避免私有材料外泄。","textChars":32,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"shape","id":"sh/id8nmpcr","slide":11,"bbox":[74,292,450,230]}
+{"kind":"textbox","id":"sh/jyh4vudc","slide":11,"text":"私有研究工作台","textPreview":"私有研究工作台","textChars":7,"textLines":1,"bbox":[108,326,380,42]}
+{"kind":"textbox","id":"sh/kzq5ozux","slide":11,"text":"PDF / OCR / 资料问答\n作品生成 / 在线编辑\n审核 / 版本管理","textPreview":"PDF / OCR / 资料问答 | 作品生成 / 在线编辑 | 审核 / 版本管理","textChars":38,"textLines":3,"bbox":[108,392,380,100]}
+{"kind":"shape","id":"sh/50zmx4vi","slide":11,"bbox":[554,382,152,50]}
+{"kind":"textbox","id":"sh/29snytcb","slide":11,"text":"审核发布","textPreview":"审核发布","textChars":4,"textLines":1,"bbox":[564,350,132,28]}
+{"kind":"shape","id":"sh/3u1o7ydw","slide":11,"bbox":[738,292,450,230]}
+{"kind":"textbox","id":"sh/zmdcrito","slide":11,"text":"公众科普站","textPreview":"公众科普站","textChars":5,"textLines":1,"bbox":[772,326,380,42]}
+{"kind":"textbox","id":"sh/yl4byxc3","slide":11,"text":"Three.js 日食互动\n甲骨记录 / 公开作品\n有依据问答 / 研究来源","textPreview":"Three.js 日食互动 | 甲骨记录 / 公开作品 | 有依据问答 / 研究来源","textChars":38,"textLines":3,"bbox":[772,392,380,100]}
+{"kind":"textbox","id":"sh/lovutsbu","slide":11,"text":"证据库 · 发布知识 · 作品库 · 来源关系","textPreview":"证据库 · 发布知识 · 作品库 · 来源关系","textChars":23,"textLines":1,"bbox":[304,560,680,34]}
+{"kind":"shape","id":"sh/0nmt0nu9","slide":11,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/nqdcv2tk","slide":11,"text":"应用技术报告","textPreview":"应用技术报告","textChars":6,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/mp4b2xcz","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/94t0qi","slide":11,"text":"[Sources]\ndocs/03-系统架构_MVP0.4.md\nserver.py\nresearch_store.py\nsnapshot_manager.py"}
+{"kind":"slide","id":"sl/nf5v8g","slide":12,"title":"准确性机制","textShapes":21}
+{"kind":"textbox","id":"sh/srypwvax","slide":12,"name":"kicker","text":"准确性机制","textPreview":"准确性机制","textChars":5,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/7qp8nqtc","slide":12,"name":"title","text":"每一件作品都能回到资料、页码和审核记录","textPreview":"每一件作品都能回到资料、页码和审核记录","textChars":19,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/6pg7ulsr","slide":12,"name":"summary","text":"准确不是一句提示词，而是贯穿资料、生成、修正和发布的来源关系。","textPreview":"准确不是一句提示词，而是贯穿资料、生成、修正和发布的来源关系。","textChars":31,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"shape","id":"sh/hwrqtkbe","slide":12,"bbox":[289.6,384,12,22]}
+{"kind":"shape","id":"sh/gvip0fat","slide":12,"bbox":[519.2,384,12,22]}
+{"kind":"shape","id":"sh/fu98rat8","slide":12,"bbox":[748.8,384,12,22]}
+{"kind":"shape","id":"sh/ut07y5sn","slide":12,"bbox":[978.4,384,12,22]}
+{"kind":"shape","id":"sh/pkrqxkba","slide":12,"bbox":[74,316,213.6,164]}
+{"kind":"textbox","id":"sh/4jip4fap","slide":12,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90,332,48,24]}
+{"kind":"textbox","id":"sh/qlwzexkf","slide":12,"text":"原始资料","textPreview":"原始资料","textChars":4,"textLines":1,"bbox":[90,366,181.6,40]}
+{"kind":"textbox","id":"sh/rm5072l0","slide":12,"text":"私有 PDF","textPreview":"私有 PDF","textChars":6,"textLines":1,"bbox":[90,414,181.6,48]}
+{"kind":"shape","id":"sh/cnehg725","slide":12,"bbox":[303.6,316,213.6,164]}
+{"kind":"textbox","id":"sh/do7i9c3q","slide":12,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[319.6,332,48,24]}
+{"kind":"textbox","id":"sh/epgzihkb","slide":12,"text":"文本块","textPreview":"文本块","textChars":3,"textLines":1,"bbox":[319.6,366,181.6,40]}
+{"kind":"textbox","id":"sh/zap0bmlw","slide":12,"text":"页码与 OCR","textPreview":"页码与 OCR","textChars":7,"textLines":1,"bbox":[319.6,414,181.6,48]}
+{"kind":"shape","id":"sh/0byhkr2h","slide":12,"bbox":[533.2,316,213.6,164]}
+{"kind":"textbox","id":"sh/1c7idw32","slide":12,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.2,332,48,24]}
+{"kind":"textbox","id":"sh/utcz6d47","slide":12,"text":"生成草稿","textPreview":"生成草稿","textChars":4,"textLines":1,"bbox":[549.2,366,181.6,40]}
+{"kind":"textbox","id":"sh/felgzils","slide":12,"text":"模型与提示词版本","textPreview":"模型与提示词版本","textChars":8,"textLines":1,"bbox":[549.2,414,181.6,48]}
+{"kind":"shape","id":"sh/jy1w7e1k","slide":12,"bbox":[762.8,316,213.6,164]}
+{"kind":"textbox","id":"sh/yxsfe90z","slide":12,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.8,332,48,24]}
+{"kind":"textbox","id":"sh/lkje9oja","slide":12,"text":"人工审核","textPreview":"人工审核","textChars":4,"textLines":1,"bbox":[778.8,366,181.6,40]}
+{"kind":"textbox","id":"sh/kzaxgji5","slide":12,"text":"批准 / 驳回 / 修改","textPreview":"批准 / 驳回 / 修改","textChars":12,"textLines":1,"bbox":[778.8,414,181.6,48]}
+{"kind":"shape","id":"sh/buhw3e18","slide":12,"bbox":[992.4,316,213.6,164]}
+{"kind":"textbox","id":"sh/at8va9kn","slide":12,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1008.4,332,48,24]}
+{"kind":"textbox","id":"sh/xwze5oje","slide":12,"text":"公众作品","textPreview":"公众作品","textChars":4,"textLines":1,"bbox":[1008.4,366,181.6,40]}
+{"kind":"textbox","id":"sh/wvqdcj2t","slide":12,"text":"当前发布版本","textPreview":"当前发布版本","textChars":6,"textLines":1,"bbox":[1008.4,414,181.6,48]}
+{"kind":"textbox","id":"sh/fqlwfy1s","slide":12,"text":"资料删除或重新解析 → 依赖作品失效 → 必须重新复核","textPreview":"资料删除或重新解析 → 依赖作品失效 → 必须重新复核","textChars":27,"textLines":1,"bbox":[258,540,764,36]}
+{"kind":"shape","id":"sh/upcf6d07","slide":12,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/cvmt0vip","slide":12,"text":"科学事实准确性","textPreview":"科学事实准确性","textChars":7,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/dwvu90za","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/nf5v8g","slide":12,"text":"[Sources]\ndocs/03-系统架构_MVP0.4.md\nresearch_store.py\ntests/test_research_workflow.py"}
+{"kind":"slide","id":"sl/hi8llz","slide":13,"title":"实现效果","textShapes":16}
+{"kind":"textbox","id":"sh/l4j2povu","slide":13,"name":"kicker","text":"实现效果","textPreview":"实现效果","textChars":4,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/yhs3u9c3","slide":13,"name":"title","text":"首期闭环已经跑通，范围保持在 7 篇核心资料","textPreview":"首期闭环已经跑通，范围保持在 7 篇核心资料","textChars":22,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/z21knedo","slide":13,"name":"summary","text":"以下数字来自当前发布版本和自动化测试，不包含尚未完成的专家签署与真实用户测试。","textPreview":"以下数字来自当前发布版本和自动化测试，不包含尚未完成的专家签署与真实用户测试。","textChars":39,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"textbox","id":"sh/cfqlszex","slide":13,"text":"7 / 7","textPreview":"7 / 7","textChars":5,"textLines":1,"bbox":[76,330,190,76]}
+{"kind":"textbox","id":"sh/xgz2l4vi","slide":13,"text":"核心论文已确认","textPreview":"核心论文已确认","textChars":7,"textLines":1,"bbox":[76,406,190,48]}
+{"kind":"textbox","id":"sh/qd83qpw7","slide":13,"text":"81","textPreview":"81","textChars":2,"textLines":1,"bbox":[302,330,190,76]}
+{"kind":"textbox","id":"sh/behkjuds","slide":13,"text":"页 OCR 与原页关联","textPreview":"页 OCR 与原页关联","textChars":11,"textLines":1,"bbox":[302,406,190,48]}
+{"kind":"textbox","id":"sh/wbul43uh","slide":13,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[528,330,190,76]}
+{"kind":"textbox","id":"sh/hc3mx8v2","slide":13,"text":"类可复用输出","textPreview":"类可复用输出","textChars":6,"textLines":1,"bbox":[528,406,190,48]}
+{"kind":"textbox","id":"sh/xcvypoby","slide":13,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[754,330,190,76]}
+{"kind":"textbox","id":"sh/cbmxw3ad","slide":13,"text":"件当前公开作品","textPreview":"件当前公开作品","textChars":7,"textLines":1,"bbox":[754,406,190,48]}
+{"kind":"textbox","id":"sh/badwnyts","slide":13,"text":"72","textPreview":"72","textChars":2,"textLines":1,"bbox":[980,330,190,76]}
+{"kind":"textbox","id":"sh/a94futs7","slide":13,"text":"项自动化测试","textPreview":"项自动化测试","textChars":6,"textLines":1,"bbox":[980,406,190,48]}
+{"kind":"shape","id":"sh/p8velob2","slide":13,"bbox":[76,520,1096,1]}
+{"kind":"textbox","id":"sh/on2xsjah","slide":13,"text":"25 题百炼正式问题集已完成首轮评测；发现的问题进入修复与复跑，而不是被隐藏。","textPreview":"25 题百炼正式问题集已完成首轮评测；发现的问题进入修复与复跑，而不是被隐藏。","textChars":39,"textLines":1,"bbox":[76,552,1040,44]}
+{"kind":"shape","id":"sh/nmtwjetw","slide":13,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/2lkfq9sb","slide":13,"text":"实现效果","textPreview":"实现效果","textChars":4,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/t4fyx8r6","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/hi8llz","slide":13,"text":"[Sources]\nREADME.md\ndata/published-snapshot.json\ntests/test_research_workflow.py\nevaluation/（25题正式问题集）"}
+{"kind":"slide","id":"sl/ff5a6g","slide":14,"title":"作品与源码入口","textShapes":16}
+{"kind":"textbox","id":"sh/t43qhkfq","slide":14,"name":"kicker","text":"作品与源码入口","textPreview":"作品与源码入口","textChars":7,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/61c765wf","slide":14,"name":"title","text":"一个公网入口集中核对互动、视频、技术报告和源码","textPreview":"一个公网入口集中核对互动、视频、技术报告和源码","textChars":23,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/r2l8fax0","slide":14,"name":"summary","text":"最终提交前只需在“参赛链接配置.json”写入三个正式 URL，再重新导出即可生成二维码版本。","textPreview":"最终提交前只需在“参赛链接配置.json”写入三个正式 URL，再重新导出即可生成二维码版本。","textChars":47,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"shape","id":"sh/g7upczeh","slide":14,"bbox":[76,302,350,176]}
+{"kind":"shape","id":"sh/18nqlkf2","slide":14,"bbox":[92,318,94,94]}
+{"kind":"textbox","id":"sh/e5c7apwb","slide":14,"text":"待配置","textPreview":"待配置","textChars":3,"textLines":1,"bbox":[92,350,94,28]}
+{"kind":"textbox","id":"sh/f6l8juxw","slide":14,"text":"互动演示站","textPreview":"互动演示站","textChars":5,"textLines":1,"bbox":[204,324,206,36]}
+{"kind":"textbox","id":"sh/ovepgzed","slide":14,"text":"提交前写入正式 URL 并生成二维码","textPreview":"提交前写入正式 URL 并生成二维码","textChars":18,"textLines":1,"bbox":[204,370,206,76]}
+{"kind":"shape","id":"sh/pwnqp4fy","slide":14,"bbox":[464,302,350,176]}
+{"kind":"shape","id":"sh/9srypszi","slide":14,"bbox":[480,318,94,94]}
+{"kind":"textbox","id":"sh/87ixwnix","slide":14,"text":"待配置","textPreview":"待配置","textChars":3,"textLines":1,"bbox":[480,350,94,28]}
+{"kind":"textbox","id":"sh/n69gni1c","slide":14,"text":"1080P 演示视频","textPreview":"1080P 演示视频","textChars":10,"textLines":1,"bbox":[592,324,206,36]}
+{"kind":"textbox","id":"sh/m50fud0r","slide":14,"text":"提交前写入正式 URL 并生成二维码","textPreview":"提交前写入正式 URL 并生成二维码","textChars":18,"textLines":1,"bbox":[592,370,206,76]}
+{"kind":"shape","id":"sh/xwbytszu","slide":14,"bbox":[852,302,350,176]}
+{"kind":"shape","id":"sh/wvix07i9","slide":14,"bbox":[868,318,94,94]}
+{"kind":"textbox","id":"sh/vu9gr2ho","slide":14,"text":"待配置","textPreview":"待配置","textChars":3,"textLines":1,"bbox":[868,350,94,28]}
+{"kind":"textbox","id":"sh/at0fyx03","slide":14,"text":"源码仓库","textPreview":"源码仓库","textChars":4,"textLines":1,"bbox":[980,324,206,36]}
+{"kind":"textbox","id":"sh/d07eh8ja","slide":14,"text":"提交前写入正式 URL 并生成二维码","textPreview":"提交前写入正式 URL 并生成二维码","textChars":18,"textLines":1,"bbox":[980,370,206,76]}
+{"kind":"textbox","id":"sh/czyxo3ip","slide":14,"text":"技术报告：部署后与参赛入口同域发布","textPreview":"技术报告：部署后与参赛入口同域发布","textChars":17,"textLines":1,"bbox":[76,524,1120,30]}
+{"kind":"textbox","id":"sh/4j2x43ql","slide":14,"text":"公网只开放公众站、参赛入口和登录页；原始 PDF、数据库、密钥与草稿保持私有。","textPreview":"公网只开放公众站、参赛入口和登录页；原始 PDF、数据库、密钥与草稿保持私有。","textChars":39,"textLines":1,"bbox":[120,574,1040,34]}
+{"kind":"shape","id":"sh/pkbyx8r6","slide":14,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/2h0f2t8f","slide":14,"text":"链接 · 二维码 · 源码 · 技术报告","textPreview":"链接 · 二维码 · 源码 · 技术报告","textChars":20,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/3itgvy90","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/ff5a6g","slide":14,"text":"[Sources]\nshowcase/index.html\nshowcase/technical-report.html\ndeploy/公网比赛演示部署说明.md\ndeploy/Caddyfile.example"}
+{"kind":"slide","id":"sl/urb77c","slide":15,"title":"科研价值与应用场景","textShapes":13}
+{"kind":"textbox","id":"sh/srihczqt","slide":15,"name":"kicker","text":"科研价值与应用场景","textPreview":"科研价值与应用场景","textChars":9,"textLines":1,"bbox":[72,48,450,26]}
+{"kind":"textbox","id":"sh/rq903u98","slide":15,"name":"title","text":"一次甲骨日食示范，验证文化遗产科学传播的通用方法","textPreview":"一次甲骨日食示范，验证文化遗产科学传播的通用方法","textChars":24,"textLines":1,"bbox":[72,88,1120,110]}
+{"kind":"textbox","id":"sh/65gzap83","slide":15,"name":"summary","text":"方法可迁移，但首期不扩张成通用 NotebookLM 替代产品。","textPreview":"方法可迁移，但首期不扩张成通用 NotebookLM 替代产品。","textChars":32,"textLines":1,"bbox":[74,194,1080,58]}
+{"kind":"textbox","id":"sh/547i1kri","slide":15,"text":"博物馆展陈","textPreview":"博物馆展陈","textChars":5,"textLines":1,"bbox":[78,298,240,40]}
+{"kind":"textbox","id":"sh/43yh8zqx","slide":15,"text":"可交互机制与证据阅读","textPreview":"可交互机制与证据阅读","textChars":10,"textLines":1,"bbox":[338,302,274,62]}
+{"kind":"shape","id":"sh/j2p0zu9c","slide":15,"bbox":[78,386,520,1]}
+{"kind":"textbox","id":"sh/i1gz6psr","slide":15,"text":"跨学科课堂","textPreview":"跨学科课堂","textChars":5,"textLines":1,"bbox":[644,298,240,40]}
+{"kind":"textbox","id":"sh/h07ixkr6","slide":15,"text":"古文字、历史与天文学协同","textPreview":"古文字、历史与天文学协同","textChars":12,"textLines":1,"bbox":[904,302,274,62]}
+{"kind":"shape","id":"sh/wzyh4fal","slide":15,"bbox":[644,386,520,1]}
+{"kind":"textbox","id":"sh/q5c76twz","slide":15,"text":"科研展示","textPreview":"科研展示","textChars":4,"textLines":1,"bbox":[78,440,240,40]}
+{"kind":"textbox","id":"sh/b6lozydk","slide":15,"text":"论文到图卡、幻灯片和视频脚本","textPreview":"论文到图卡、幻灯片和视频脚本","textChars":14,"textLines":1,"bbox":[338,444,274,62]}
+{"kind":"shape","id":"sh/crup83e5","slide":15,"bbox":[78,528,520,1]}
+{"kind":"textbox","id":"sh/ds361ovq","slide":15,"text":"长期科普","textPreview":"长期科普","textChars":4,"textLines":1,"bbox":[644,440,240,40]}
+{"kind":"textbox","id":"sh/21s729w3","slide":15,"text":"资料更新后触发作品复核","textPreview":"资料更新后触发作品复核","textChars":11,"textLines":1,"bbox":[904,444,274,62]}
+{"kind":"shape","id":"sh/321ovexo","slide":15,"bbox":[644,528,520,1]}
+{"kind":"shape","id":"sh/o3up4jet","slide":15,"bbox":[64,670,1152,1]}
+{"kind":"textbox","id":"sh/p436xofe","slide":15,"text":"科研价值 · 未来应用","textPreview":"科研价值 · 未来应用","textChars":11,"textLines":1,"bbox":[68,681,430,22]}
+{"kind":"textbox","id":"sh/exsny9wr","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1144,678,72,24]}
+{"kind":"notes","id":"nt/urb77c","slide":15,"text":"[Sources]\ndocs/05-预期成果_MVP0.4.md\nREADME.md\nhttps://tashan.ac.cn/homepage/aigc\nhttps://github.com/UCSB-AI/EvoPresent"}
+{"kind":"slide","id":"sl/xk7j5s","slide":16,"title":"让三千年前的仰望，","textShapes":4}
+{"kind":"shape","id":"sh/dgfm1gn6","slide":16,"bbox":[660,0,240,720]}
+{"kind":"textbox","id":"sh/sf6l8b6l","slide":16,"text":"让三千年前的仰望，\n成为今天可以理解、\n体验和核验的知识。","textPreview":"让三千年前的仰望， | 成为今天可以理解、 | 体验和核验的知识。","textChars":29,"textLines":3,"bbox":[78,126,700,250]}
+{"kind":"textbox","id":"sh/3qd4v65o","slide":16,"text":"甲骨里的日光缺口","textPreview":"甲骨里的日光缺口","textChars":8,"textLines":1,"bbox":[84,432,520,44]}
+{"kind":"textbox","id":"sh/ip4321oj","slide":16,"text":"正式公网地址与二维码将在部署后写入最终提交版","textPreview":"正式公网地址与二维码将在部署后写入最终提交版","textChars":22,"textLines":1,"bbox":[84,500,570,54]}
+{"kind":"textbox","id":"sh/5svmxgnu","slide":16,"text":"传播插图 / 非甲骨原片","textPreview":"传播插图 / 非甲骨原片","textChars":12,"textLines":1,"bbox":[1030,680,210,18]}
+{"kind":"image","id":"im/j6tgvqts","slide":16,"name":"","alt":"日食与甲骨主题传播视觉","bbox":[720,0,560,720]}
+{"kind":"notes","id":"nt/xk7j5s","slide":16,"text":"[Sources]\nREADME.md\nassets/hero-eclipse.png\n参赛公网地址待配置"}

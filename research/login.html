@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="登录日光缺口研究工作台。">
+  <title>登录 · 日光缺口研究工作台</title>
+  <link rel="icon" href="../assets/brand-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="login.css?v=20260821-2">
+</head>
+<body>
+  <main class="login-shell">
+    <section class="login-context" aria-labelledby="login-context-title">
+      <a class="login-brand" href="/"><img class="brand-mark" src="../assets/brand-mark.svg" alt="" width="34" height="34"><span>日光缺口</span></a>
+      <div>
+        <p class="context-label">私有研究空间</p>
+        <h1 id="login-context-title">研究工作台</h1>
+        <p>管理私有论文、识别文本、资料问答、作品审核与公众发布。</p>
+      </div>
+      <div class="login-context-foot">
+        <p class="privacy-note">原始 PDF 和未发布研究内容仅保留在受保护的服务端存储。</p>
+        <p class="image-note">主视觉为传播插图</p>
+      </div>
+    </section>
+    <section class="login-panel" aria-labelledby="login-title">
+      <a class="back-link" href="/">← 返回公众站</a>
+      <div class="login-form-wrap">
+        <p class="panel-kicker">仅限授权用户</p>
+        <h2 id="login-title">登录研究工作台</h2>
+        <p class="panel-note">使用项目配置的授权账号继续。</p>
+        <div class="login-alert" id="login-alert" role="alert" hidden></div>
+        <form id="login-form">
+          <label for="username">用户名</label>
+          <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+          <label for="password">密码</label>
+          <div class="password-field">
+            <input id="password" name="password" type="password" autocomplete="current-password" required>
+            <button id="toggle-password" type="button" aria-pressed="false">显示</button>
+          </div>
+          <button class="login-submit" id="login-submit" type="submit">登录</button>
+        </form>
+        <div class="quick-login-divider" id="quick-login-divider" hidden><span>快捷入口</span></div>
+        <button class="quick-login-button" id="quick-login-button" type="button" hidden>一键登录研究工作台 <span aria-hidden="true">↗</span></button>
+        <p class="login-help">登录凭据由服务端安全配置，未授权访客无法访问研究资料。</p>
+      </div>
+    </section>
+  </main>
+  <script src="login.js?v=20260821-2" defer></script>
+</body>
+</html>

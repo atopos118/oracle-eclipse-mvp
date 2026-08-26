@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《甲骨里的日光缺口》赛道三方向2参赛作品入口。">
+  <title>参赛作品入口 · 甲骨里的日光缺口</title>
+  <link rel="icon" href="../assets/brand-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="showcase.css?v=20260726-1">
+</head>
+<body>
+  <header class="showcase-header">
+    <a class="brand" href="/"><img src="../assets/brand-mark.svg" alt="" width="36" height="36"><span>日光缺口</span></a>
+    <nav aria-label="参赛材料导航">
+      <a href="#experience">作品体验</a>
+      <a href="#workflow">AI 工作流</a>
+      <a href="#submission">提交材料</a>
+    </nav>
+    <div class="header-actions"><a class="header-action header-action-muted" href="/#science">进入公众站</a><a class="header-action" href="/research/">进入研究工作台</a></div>
+  </header>
+
+  <main>
+    <section class="showcase-hero" aria-labelledby="showcase-title">
+      <img class="hero-visual" src="../assets/hero-eclipse.png" alt="日食与甲骨主题传播视觉，不是甲骨原片或拓片">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">赛道三 · 科普科教与艺术表达 / 方向 2</p>
+        <h1 id="showcase-title">甲骨里的<br>日光缺口</h1>
+        <p class="hero-lede">把甲骨日食研究转化为可交互、可追溯、可持续修正的多元科学传播体验。</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="/#science">立即体验互动作品</a>
+          <a class="secondary-action" href="technical-report.html">阅读技术报告</a>
+        </div>
+      </div>
+      <p class="visual-note">主视觉为传播插图，不是甲骨原片或拓片</p>
+    </section>
+
+    <section class="competition-statement" id="experience">
+      <p class="section-index">01 / 作品体验</p>
+      <div>
+        <h2>一套应用，完成三种科学传播表达</h2>
+        <p>以甲骨日食为首个示范主题，系统把研究资料转化为经典期刊视觉、数字交互体验与叙事动态内容，并保留人工审核和来源追溯。</p>
+      </div>
+    </section>
+
+    <section class="mediums" aria-label="三类作品形态">
+      <article>
+        <span>视觉</span>
+        <h3>科学图像与图文叙事</h3>
+        <p>科普图卡、图文摘要、机制图、时间线、观点对照和可编辑幻灯片。</p>
+        <a href="/#works">查看公开成果</a>
+      </article>
+      <article>
+        <span>交互</span>
+        <h3>日食科学互动与证据阅读</h3>
+        <p>Three.js 日食几何场景、甲骨记录折叠阅读、资料来源和有依据问答。</p>
+        <a href="/#science">进入互动场景</a>
+      </article>
+      <article>
+        <span>动态</span>
+        <h3>音频导览与演示视频</h3>
+        <p>百炼语音导览、三分钟讲解稿、1080P 演示视频和字幕制作包。</p>
+        <a id="video-link" href="#submission" aria-disabled="true">演示视频提交前配置</a>
+      </article>
+    </section>
+
+    <section class="workflow-section" id="workflow">
+      <div class="workflow-heading">
+        <p class="section-index">02 / AI 工作流</p>
+        <h2>AI 负责转译，人负责决定什么可以公开</h2>
+        <p>系统没有自行训练基础模型。我们把通用模型放进受控资料、结构化输出、人工审核和版本发布的闭环中。</p>
+      </div>
+      <ol class="workflow-line">
+        <li><b>资料确认</b><span>7 篇核心论文逐页 OCR 与原页复核</span></li>
+        <li><b>受控检索</b><span>只使用已确认来源和必要页码片段</span></li>
+        <li><b>多模态生成</b><span>Qwen Plus、VL OCR、TTS、文生图与 Three.js</span></li>
+        <li><b>在线修正</b><span>编辑、批准、驳回与来源更新失效传播</span></li>
+        <li><b>版本发布</b><span>公众端只读取审核后的稳定公开版本</span></li>
+      </ol>
+    </section>
+
+    <section class="evidence-band" aria-label="当前实现效果">
+      <div><strong>7 / 7</strong><span>核心来源已确认</span></div>
+      <div><strong>81</strong><span>页 OCR 与原页关联</span></div>
+      <div><strong>20</strong><span>类可复用输出</span></div>
+      <div><strong>9</strong><span>件当前公开作品</span></div>
+      <div><strong>72</strong><span>项自动化测试</span></div>
+    </section>
+
+    <section class="submission-section" id="submission">
+      <div class="submission-heading">
+        <p class="section-index">03 / 提交材料</p>
+        <h2>评委可从一个入口核对作品、视频、技术和源码</h2>
+      </div>
+      <div class="submission-links">
+        <a href="/" class="is-ready"><span>互动作品</span><strong id="public-site-label">当前站点</strong></a>
+        <a href="technical-report.html" class="is-ready"><span>应用技术报告</span><strong>在线阅读</strong></a>
+        <a id="deck-link" href="../deliverables/competition-2026/甲骨里的日光缺口_参赛演示_赛道三方向2.pdf" class="is-ready"><span>参赛 PPT / PDF</span><strong>打开文件</strong></a>
+        <a id="source-link" href="#" aria-disabled="true"><span>源码仓库</span><strong>提交前配置 URL</strong></a>
+        <a id="submission-video-link" href="#" aria-disabled="true"><span>1080P 演示视频</span><strong>提交前配置 URL</strong></a>
+      </div>
+      <p class="submission-note" id="submission-readiness">互动站与技术报告已经就绪；源码仓库和视频地址需要在最终提交前写入配置。</p>
+    </section>
+  </main>
+
+  <footer>
+    <div><img src="../assets/brand-mark.svg" alt="" width="30" height="30"><strong>甲骨里的日光缺口</strong></div>
+    <p>科学事实准确 · 跨媒介表达 · 人机协作修正</p>
+    <a href="/research/">授权用户进入研究工作台</a>
+  </footer>
+  <script src="showcase.js?v=20260726-1" defer></script>
+</body>
+</html>

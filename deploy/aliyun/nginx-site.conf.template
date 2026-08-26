@@ -1,0 +1,58 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name __DOMAIN__;
+
+    client_max_body_size 40m;
+
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+    add_header X-Frame-Options "SAMEORIGIN" always;
+
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/www/oracle-eclipse-acme;
+    }
+
+    location ^~ /source-materials/ {
+        return 404;
+    }
+
+    location ^~ /data/release-history/ {
+        return 404;
+    }
+
+    location ^~ /deploy/ {
+        return 404;
+    }
+
+    location ^~ /tools/ {
+        return 404;
+    }
+
+    location ^~ /docs/ {
+        return 404;
+    }
+
+    location ~ /\. {
+        return 404;
+    }
+
+    location ~* \.(?:py|pyc|pyo|ps1|sh|md|docx|db|sqlite|sqlite3|log|err|env|ini|toml|yaml|yml)$ {
+        return 404;
+    }
+
+    location / {
+        proxy_pass http://127.0.0.1:8018;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Connection "";
+
+        proxy_connect_timeout 10s;
+        proxy_send_timeout 360s;
+        proxy_read_timeout 360s;
+        proxy_buffering off;
+    }
+}

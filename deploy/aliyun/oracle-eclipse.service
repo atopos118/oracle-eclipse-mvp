@@ -1,0 +1,30 @@
+[Unit]
+Description=Oracle Eclipse production service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=oracle-eclipse
+Group=oracle-eclipse
+WorkingDirectory=/opt/oracle-eclipse/app
+EnvironmentFile=/etc/oracle-eclipse/oracle-eclipse.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/oracle-eclipse/app/.venv/bin/python /opt/oracle-eclipse/app/server.py --host 127.0.0.1 --port 8018 --public-demo
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=20
+KillSignal=SIGINT
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+ReadWritePaths=/opt/oracle-eclipse/app/source-materials /opt/oracle-eclipse/app/data
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,367 @@
+{
+  "schemaVersion": "0.4",
+  "snapshotId": "release-2026-07-21-5cc0ea97db",
+  "publishedAt": "2026-07-21T13:46:19.202434+00:00",
+  "project": {
+    "title": "甲骨里的日光缺口",
+    "subtitle": "基于 Qwen 的甲骨文日食记录多模态科学传播应用",
+    "version": "MVP 0.4",
+    "boundaryStatement": "公众端只展示研究台确认、审核并发布的内容。当前已据韩宇娇2023年原刊确认《合集》11480、21298、33696三条材料；残字、断代和公元纪年对应继续标注争议，原始PDF与内部研究记录保留在私有研究端。",
+    "dataPolicy": "公众站只展示研究台审核并发布的内容；原始资料仅保留在私有研究台。"
+  },
+  "knowledge": {
+    "project": {
+      "title": "甲骨里的日光缺口",
+      "subtitle": "基于 Qwen 的甲骨文日食记录多模态科学传播应用",
+      "version": "MVP 0.4",
+      "boundaryStatement": "公众端只展示研究台确认、审核并发布的内容。当前已据韩宇娇2023年原刊确认《合集》11480、21298、33696三条材料；残字、断代和公元纪年对应继续标注争议，原始PDF与内部研究记录保留在私有研究端。"
+    },
+    "evidenceChain": [
+      {
+        "id": "material",
+        "order": 1,
+        "label": "材料层",
+        "title": "原片、拓片与著录信息",
+        "summary": "记录原始材料的收藏或著录编号、图版位置、可见字形和残损情况。",
+        "status": "首篇论文已补录",
+        "requiredFields": [
+          "著录号",
+          "拓片或原片图",
+          "出版物与页码",
+          "材料完整度"
+        ]
+      },
+      {
+        "id": "philology",
+        "order": 2,
+        "label": "释读层",
+        "title": "字形判断与释文边界",
+        "summary": "区分可确认、存在争议和无法判断的字形，不把推测写成定论。",
+        "status": "流程已建立",
+        "requiredFields": [
+          "释文",
+          "隶定",
+          "学者意见",
+          "争议说明"
+        ]
+      },
+      {
+        "id": "astronomy",
+        "order": 3,
+        "label": "天文层",
+        "title": "现代日食机制解释",
+        "summary": "月球运行到太阳与地球之间时，月影可能扫过地球；由于月球轨道与黄道存在倾角，并非每次朔月都会发生日食。",
+        "status": "通识已核验",
+        "requiredFields": [
+          "天象类型",
+          "发生条件",
+          "可见范围",
+          "反推限制"
+        ]
+      },
+      {
+        "id": "communication",
+        "order": 4,
+        "label": "传播层",
+        "title": "面向不同受众的转译",
+        "summary": "在不改变证据强度的前提下，调整语言密度、类比方式和讲解节奏。",
+        "status": "MVP 可体验",
+        "requiredFields": [
+          "受众",
+          "核心信息",
+          "禁用表述",
+          "复核状态"
+        ]
+      }
+    ],
+    "astronomy": {
+      "coreFacts": [
+        "日食发生在朔月附近，月球位于太阳与地球之间。",
+        "月球轨道面与黄道面约有 5 度倾角，因此多数朔月不会发生日食。",
+        "地面不同地点看到的食分和过程可能不同，古记录与现代推算的对应需要地点、年代和历法等条件。"
+      ],
+      "plainExplanation": "当月球运行到太阳和地球之间，它的影子可能落到地球上。站在影子经过的地方，人们会看到太阳被遮住一部分或全部，这就是日食。",
+      "types": [
+        {
+          "id": "total",
+          "name": "日全食",
+          "short": "太阳被完全遮住",
+          "explanation": "观测者位于月球本影扫过的狭窄区域内。短暂的全食阶段里，明亮的日面被遮住，日冕才更容易被看见。",
+          "fact": "全食带很窄，同一时刻并不是整颗地球都能看到日全食。"
+        },
+        {
+          "id": "annular",
+          "name": "日环食",
+          "short": "太阳边缘留下光环",
+          "explanation": "月球距离地球较远时，视直径比太阳小，无法遮住整个日面，中心被遮挡而边缘仍发光。",
+          "fact": "环食阶段依然不能用肉眼直接看太阳。"
+        },
+        {
+          "id": "partial",
+          "name": "日偏食",
+          "short": "太阳只缺了一部分",
+          "explanation": "观测者位于月球半影覆盖的区域，只能看到太阳的一部分被月球遮住。",
+          "fact": "同一次日食，不同地点看到的类型和食分可能不同。"
+        }
+      ],
+      "doNotClaim": [
+        "不能仅凭一条含混释文确定某次日食的公历日期。",
+        "不能把生成式图像当作甲骨实物、拓片或学术证据。",
+        "不能省略争议意见，把推测性释读写成唯一结论。"
+      ]
+    },
+    "history": {
+      "title": "先人记录的不只是天空，也包括他们面对异常天象时的疑问",
+      "summary": "商代卜辞把天象放进占卜、祭祀与政治生活的语境中。日食可能被当作需要贞问和回应的异常天象，但现有材料不支持把所有日食记录简单概括为同一种固定预兆。",
+      "interpretation": [
+        "卜辞常以贞问形式处理尚未确定的事情，因此问题本身不等于已经得到“凶”或“吉”的结论。",
+        "先人对天象的理解与祭祀、祖先、王事和现实事件相互关联，不能直接套用现代天文学语言。",
+        "具体一辞怎样解释，必须看字形、上下辞、材料分期和同类辞例。"
+      ]
+    },
+    "audienceVersions": {
+      "public": {
+        "label": "大众版",
+        "title": "太阳没有消失，只是月亮从我们与太阳之间经过",
+        "body": "日食发生时，月球投下的影子扫过地球。身处影子路径的人，会看到太阳被遮住一部分或全部。甲骨上的天象记录让我们看到，三千多年前的人已经在认真观察天空；但要把某片甲骨和某一次日食对应起来，还需要释读、断代与天文计算共同验证。"
+      },
+      "classroom": {
+        "label": "课堂版",
+        "title": "从一条古记录，完成一次跨学科证据推理",
+        "body": "先核对甲骨材料的出处与字形，再比较不同释读意见；随后用日食发生条件、可能观测地点和年代范围进行检验。课堂讨论的重点不是抢先给出唯一答案，而是识别每一步证据的强弱，以及哪些结论仍需复核。"
+      },
+      "research": {
+        "label": "研究版",
+        "title": "材料、释读与天文反推必须保持层级分离",
+        "body": "项目将原始图像与著录信息、古文字释读意见、历日与天文计算、公众表达版本分层存储。传播文本只能调用已标注证据等级的字段；涉及具体甲骨片、断代或日食对应关系时，系统默认触发人工复核，不自动生成确定性结论。"
+      }
+    },
+    "reviewFlags": [
+      "3条记录已据首篇原刊录入，仍待原骨与著录书复核",
+      "生成图像仅为传播情境图",
+      "具体年代与日食对应关系需专家复核"
+    ],
+    "deliverables": [
+      {
+        "name": "公众科普站",
+        "status": "发布内容接入完成",
+        "acceptance": "科学原理、商代认识、记录与问答读取同一已审核发布内容"
+      },
+      {
+        "name": "私有资料研究台",
+        "status": "首版完成",
+        "acceptance": "PDF、URL、文本导入及解析、去重、来源确认可操作"
+      },
+      {
+        "name": "输出工作室",
+        "status": "首版完成",
+        "acceptance": "记录表、观点对照、大众讲解稿、音频导览生成草稿并保留来源"
+      },
+      {
+        "name": "审核发布中心",
+        "status": "首版完成",
+        "acceptance": "审核、失效标记与公众内容发布可操作"
+      },
+      {
+        "name": "可审计证据库",
+        "status": "1/7篇入库",
+        "acceptance": "资料、页码、模型、提示词、来源关系和审核事件可追溯"
+      },
+      {
+        "name": "百炼适配层",
+        "status": "接口完成",
+        "acceptance": "无密钥使用本地保底；配置密钥后调用Qwen且不绕过审核"
+      }
+    ]
+  },
+  "recordsMeta": {
+    "dataset": "甲骨日食记录与研究线索（公开展示版）",
+    "version": "0.4-release",
+    "scope": "这里展示的是研究台已审核并发布的甲骨日食记录与研究线索。数据来自已确认的论文与页码原文；仍有争议的内容会明确标为研究线索或待核。",
+    "completion": {
+      "status": "1/7篇核心资料已审核进入研究闭环",
+      "verifiedTranscriptions": 3,
+      "researchLeads": 2,
+      "sourcesExtracted": 1,
+      "targetSources": 7,
+      "nextGate": "取得其余6篇核心资料，并由古文字学指导教师复核释文、残字与断代判断"
+    },
+    "topicEvidence": [
+      {
+        "id": "shang-attitude",
+        "topic": "商代人怎样理解日月食",
+        "conclusion": "韩宇娇将日月食概括为严重异象或不吉之象，并指出卜辞会向祖先报告、询问祭牲、担心其对商王造成忧祸。这个概括不等于每条贞问都已有固定的凶吉占断。",
+        "sourceId": "52172",
+        "pdfPages": [
+          10,
+          11,
+          12
+        ],
+        "publicationPages": [
+          91,
+          92,
+          93
+        ],
+        "evidenceLevel": "作者论述"
+      },
+      {
+        "id": "shang-ritual",
+        "topic": "商代是否有救日仪式",
+        "conclusion": "作者根据月食卜辞及夏、周文献类比，推测商代可能也有类似救日仪式；目前并非直接日食卜辞证据。",
+        "sourceId": "52172",
+        "pdfPages": [
+          11,
+          12
+        ],
+        "publicationPages": [
+          92,
+          93
+        ],
+        "evidenceLevel": "类比推测"
+      }
+    ],
+    "records": [
+      {
+        "id": "record-eb88a0964bfd",
+        "headline": "测试日食材料 · 候选记录",
+        "inscription": "乙丑卜，贞：日有食，不唯□。学者甲认为是忧祸，学者乙认为年代尚待核验。",
+        "status": "已通过人工审核",
+        "confidence": "待核验",
+        "translation": "待审核人员依据上下文补充释义。",
+        "dating": "尚不清楚",
+        "catalogNumber": "待核",
+        "sourceEvidence": [
+          {
+            "sourceId": "src-5db36c308630",
+            "pdfPage": null,
+            "publicationPage": null,
+            "purpose": "自动定位的候选文本，尚未审核"
+          }
+        ],
+        "scholarViews": [],
+        "disputes": [
+          "该条由规则自动定位，必须对照原文页面人工审核。"
+        ],
+        "sourceIds": [
+          "src-5db36c308630"
+        ],
+        "reviewed": true,
+        "reviewLevel": "人工审核"
+      }
+    ]
+  },
+  "literatureMeta": {
+    "dataset": "殷契文渊日食研究文献公开检索元数据",
+    "query": "日食",
+    "retrievedAt": "2026-07-20T03:15:36.118800+00:00",
+    "collectionPolicy": {
+      "authentication": "研究资料由用户在获授权的登录会话中取得；项目不保存账号凭据或浏览器Cookie",
+      "scope": "公开展示题名、作者、出版信息、内部来源详情及页码级核验结论",
+      "privateResearchCopies": "授权取得的PDF保存在私有研究区，仅用于研究和知识提取，不公开分发",
+      "rateLimitSeconds": 1.5
+    },
+    "reportedTotal": 13,
+    "items": [],
+    "reviewedCount": 1,
+    "coreTarget": 7
+  },
+  "evidenceRegister": {
+    "dataset": "甲骨日食公开证据登记",
+    "version": "0.1",
+    "updatedAt": "2026-07-20",
+    "notice": "本文件只公开核验结论与页码，不包含论文全文、逐页摘录、甲骨图片或本地文件路径。",
+    "progress": {
+      "extractedSources": 1,
+      "targetSources": 7,
+      "verifiedRecords": 3
+    },
+    "sources": [
+      {
+        "sourceId": "52172",
+        "citation": "韩宇娇：《故宫博物院藏甲骨卜辞中记载的祖庚时期日食》，《紫禁城》2023年第10期，第82-93页。",
+        "researchCopy": "已取得并完成逐页核验；原始PDF仅限本地研究，不通过网站公开。",
+        "checks": [
+          {
+            "recordId": "hj-11480",
+            "result": "论文图版题注释作“贞：日有食”。",
+            "pdfPages": [
+              2
+            ],
+            "publicationPages": [
+              83
+            ]
+          },
+          {
+            "recordId": "gongcangxie-17",
+            "result": "论文给出《宫藏谢》17与13的缀合关系、《合集》21298对应关系、乙丑日食释文及作者断代论证。",
+            "pdfPages": [
+              3,
+              6
+            ],
+            "publicationPages": [
+              84,
+              87
+            ]
+          },
+          {
+            "recordId": "hj-33696",
+            "result": "论文给出《合集》33696拓片题注、告祭解释、三个乙巳日食候选及作者取前1161年的论证。",
+            "pdfPages": [
+              2,
+              5,
+              6
+            ],
+            "publicationPages": [
+              83,
+              86,
+              87
+            ]
+          },
+          {
+            "recordId": "topic-shang-attitude",
+            "result": "论文讨论日月食作为严重异象、对商王忧祸的担心，以及救日仪式的类比推测。",
+            "pdfPages": [
+              10,
+              11,
+              12
+            ],
+            "publicationPages": [
+              91,
+              92,
+              93
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "works": [
+    {
+      "id": "artifact-a76efb8a7afb",
+      "kind": "public_explainer",
+      "title": "甲骨日食大众讲解稿",
+      "content": {
+        "text": "日食，是月球运行到太阳与地球之间时形成的遮挡现象。三千多年前，商代人已经把这类天象写进甲骨卜辞。\n\n当前所选资料中的相关内容包括：\n- 乙丑卜，贞：日有食，不唯□。学者甲认为是忧祸，学者乙认为年代尚待核验。：待审核人员依据上下文补充释义。\n\n这些卜辞显示人们会贞问、告祭并担忧日食带来的影响，但具体凶吉、断代和公元纪年仍要按每条材料分别判断。本稿是私有研究草稿，公开使用前必须人工复核。"
+      },
+      "model": "local-grounded-templates",
+      "promptVersion": "public_explainer:v1",
+      "updatedAt": "2026-07-21T13:46:18.371608+00:00",
+      "provenance": {
+        "sourceCount": 1,
+        "sources": [
+          {
+            "title": "测试日食材料",
+            "pdfPages": []
+          }
+        ]
+      }
+    }
+  ],
+  "audit": {
+    "reviewedSources": 1,
+    "publishedKnowledge": 1,
+    "publishedWorks": 1,
+    "rawFilesIncluded": false
+  },
+  "restoredFrom": "snapshot-2026-07-21-48cd6eda7a"
+}

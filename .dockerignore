@@ -1,0 +1,17 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+tmp/
+_qa_*/
+server*.log
+server*.err
+deploy/ubuntu/oracle-eclipse.env
+source-materials/pdfs/
+source-materials/extracted/
+source-materials/imports/
+source-materials/ocr-pages/
+source-materials/page-previews/
+source-materials/generated/
+source-materials/site-assets/
+source-materials/research.db*
